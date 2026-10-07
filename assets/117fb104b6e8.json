@@ -1,0 +1,1 @@
+{"id": "117fb104b6e8", "name": "待机呼吸休闲", "group": "idle", "frames": 241, "fps": 24, "tileW": 173, "tileH": 195, "cols": 10, "left": 135, "top": 39, "pages": [{"file": "117fb104b6e8-0.webp", "start": 0, "count": 150}, {"file": "117fb104b6e8-1.webp", "start": 150, "count": 91}], "duration": 10.041666666666666, "source": "idle/待机呼吸休闲.webm"}

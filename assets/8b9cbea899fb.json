@@ -1,0 +1,1 @@
+{"id": "8b9cbea899fb", "name": "漂浮踏步", "group": "move", "frames": 241, "fps": 24, "tileW": 159, "tileH": 197, "cols": 10, "left": 146, "top": 39, "pages": [{"file": "8b9cbea899fb-0.webp", "start": 0, "count": 150}, {"file": "8b9cbea899fb-1.webp", "start": 150, "count": 91}], "duration": 10.041666666666666, "source": "move/漂浮踏步.webm"}

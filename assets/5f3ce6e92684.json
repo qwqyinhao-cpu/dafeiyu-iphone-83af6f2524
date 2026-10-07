@@ -1,0 +1,1 @@
+{"id": "5f3ce6e92684", "name": "螃蟹走路", "group": "move", "frames": 241, "fps": 24, "tileW": 190, "tileH": 193, "cols": 10, "left": 128, "top": 42, "pages": [{"file": "5f3ce6e92684-0.webp", "start": 0, "count": 150}, {"file": "5f3ce6e92684-1.webp", "start": 150, "count": 91}], "duration": 10.041666666666666, "source": "move/螃蟹走路.webm"}

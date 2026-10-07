@@ -1,0 +1,1 @@
+{"id": "d939f2338241", "name": "放河灯", "group": "random", "frames": 241, "fps": 24, "tileW": 163, "tileH": 192, "cols": 10, "left": 143, "top": 42, "pages": [{"file": "d939f2338241-0.webp", "start": 0, "count": 150}, {"file": "d939f2338241-1.webp", "start": 150, "count": 91}], "duration": 10.041666666666666, "source": "random/放河灯.webm"}

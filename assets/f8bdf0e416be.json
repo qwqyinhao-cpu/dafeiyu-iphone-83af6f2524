@@ -1,0 +1,1 @@
+{"id": "f8bdf0e416be", "name": "下五子棋", "group": "random", "frames": 241, "fps": 24, "tileW": 172, "tileH": 211, "cols": 10, "left": 140, "top": 33, "pages": [{"file": "f8bdf0e416be-0.webp", "start": 0, "count": 140}, {"file": "f8bdf0e416be-1.webp", "start": 140, "count": 101}], "duration": 10.041666666666666, "source": "random/下五子棋.webm"}
