@@ -181,3 +181,5 @@ SOFTWARE.
 
 `tests/test_festival.py` 中有断言守卫这三个库的存在（`test_pop_culture_libraries_are_present_and_non_empty`）；
 若你为合规主动删除它们，请一并移除或调整该断言。
+
+2026-10-08 新增角色配音：使用 hexgrad/Kokoro-82M-v1.1-zh 内置声线 zf_001 本机生成16句。模型 Apache-2.0，kokoro-onnx MIT；非原作者原声、未克隆私人声音。许可和来源保存在 assets/voice/。官方模型：https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
