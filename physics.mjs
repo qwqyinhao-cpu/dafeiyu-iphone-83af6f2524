@@ -32,8 +32,8 @@ export function fitBody(body,room) {
 }
 export function stepBody(body,dt,gravity,room,restitution=0.62) {
   const inertia=(body.width**2+body.height**2)/12;
-  body.vx=clamp((body.vx+gravity.x*dt)*Math.exp(-0.12*dt),-2600,2600);
-  body.vy=clamp((body.vy+gravity.y*dt)*Math.exp(-0.12*dt),-2600,2600);
+  body.vx=clamp((body.vx+gravity.x*dt)*Math.exp(-0.12*dt),-3200,3200);
+  body.vy=clamp((body.vy+gravity.y*dt)*Math.exp(-0.12*dt),-3200,3200);
   body.omega=clamp(body.omega*Math.exp(-0.45*dt),-18,18);
   body.x+=body.vx*dt;body.y+=body.vy*dt;body.angle=normalizeAngle(body.angle+body.omega*dt);
   let impact=0,contact=false;
@@ -67,5 +67,15 @@ export function stepBody(body,dt,gravity,room,restitution=0.62) {
     body.vx+=jt*tx;body.vy+=jt*ty;body.omega+=jt*crossT/inertia;
   }
   if(contact){body.vx*=Math.exp(-0.6*dt);body.vy*=Math.exp(-0.6*dt);body.omega*=Math.exp(-3*dt);}
-  return {impact,contact};
+  const floor=body.y+Math.max(...bodyCorners(body).map(p=>p.y))>=room.bottom-1;
+  const settled=floor&&gravity.y>200&&Math.abs(body.vx)<220&&Math.abs(body.vy)<100&&Math.abs(body.omega)<2.5;
+  body.recoveryTime=settled?(body.recoveryTime||0)+dt:0;
+  let recovered=false;
+  if(body.recoveryTime>.35){
+    const previous=body.angle;
+    body.angle*=Math.exp(-8*dt);body.omega*=Math.exp(-18*dt);
+    if(Math.abs(body.angle)<.015){body.angle=0;body.omega=0;recovered=previous!==0;}
+    body.y=room.bottom-Math.max(...bodyCorners(body).map(p=>p.y));fitBody(body,room);
+  }
+  return {impact,contact,recovered};
 }

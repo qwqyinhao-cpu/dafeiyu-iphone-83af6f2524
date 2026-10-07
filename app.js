@@ -1,5 +1,6 @@
-import {clamp,rotate,orientationGravity,screenVector,motionImpulse,releaseVelocity,stepBody,fitBody} from './physics.mjs';
+import {clamp,rotate,orientationGravity,screenVector,releaseVelocity,stepBody,fitBody} from './physics.mjs';
 import {updateDragGesture} from './gesture.mjs';
+import {readMotion,applyShake} from './motion.mjs';
 
 const $=id=>document.getElementById(id),canvas=$('pet'),ctx=canvas.getContext('2d',{alpha:true});
 const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
@@ -18,7 +19,7 @@ let room={left:8,top:76,right:380,bottom:720},W=390,H=844,dpr=1,manifest=null,cl
 let animStarted=0,animationToken=0,loaded=new Map(),pending=new Map(),drag=null,ready=false;
 let lastFrame=0,lastInteraction=0,nextIdle=0,bubbleUntil=0,lastImpact=-10,contact=false,shakeEnergy=0;
 let randomGroup=[],clickGroup=[],dragClip=null,idleClip=null,nextTalk=0,forcedUntil=0;
-const motion={enabled:false,orientationAt:0,motionAt:0,lastSample:0,gx:0,gy:1,raw:[0,9.81,0],sign:-1,status:'运动传感器尚未开启'};
+const motion={enabled:false,orientationAt:0,motionAt:0,lastSample:0,gx:0,gy:1,raw:{},status:'运动传感器尚未开启',lastFeedback:0};
 
 function save(){try{localStorage.setItem(storageKey,JSON.stringify(settings));}catch{}}
 function layout(){
@@ -95,6 +96,7 @@ function tick(timestamp){
     let gx=motion.enabled?motion.gx:0,gy=motion.enabled?motion.gy:1;
     const gravity={x:gx*1100*settings.gravity,y:gy*1100*settings.gravity};
     if(drag?.active){
+      body.recoveryTime=0;
       const anchor=rotate(drag.localX,drag.localY,body.angle),tx=drag.x-anchor.x,ty=drag.y-anchor.y;
       const oldX=body.x,oldY=body.y,blend=1-Math.exp(-23*dt);
       body.x+=(tx-body.x)*blend;body.y+=(ty-body.y)*blend;
@@ -104,8 +106,9 @@ function tick(timestamp){
       body.omega=clamp((body.omega+torque/inertia*dt)*Math.exp(-4*dt),-8,8);
       body.angle+=body.omega*dt;fitBody(body,room);
     }else{
-      let hit=0;const steps=Math.ceil(dt/(1/120));
-      for(let i=0;i<steps;i++){const result=stepBody(body,dt/steps,gravity,room,settings.bounce);hit=Math.max(hit,result.impact);contact=result.contact;}
+      let hit=0,recovered=false;const steps=Math.ceil(dt/(1/120));
+      for(let i=0;i<steps;i++){const result=stepBody(body,dt/steps,gravity,room,settings.bounce);hit=Math.max(hit,result.impact);contact=result.contact;recovered ||= result.recovered;}
+      if(recovered){play(idleClip,{force:1});lastInteraction=now;}
       if(hit>300&&now-lastImpact>0.5){lastImpact=now;shakeEnergy=0.07;play(random(clickGroup)||idleClip,{force:0.35});if(hit>700)sayRandom();}
     }
     shakeEnergy*=Math.exp(-8*dt);animation(now);draw(now);updateBubble(now);
@@ -129,7 +132,7 @@ canvas.addEventListener('pointerdown',event=>{
   event.preventDefault();canvas.setPointerCapture(event.pointerId);
   const now=performance.now()/1000;
   drag={id:event.pointerId,x:p.x,y:p.y,startX:p.x,startY:p.y,t:now,localX:local.x,localY:local.y,head:local.y<-body.height*0.08,active:false,samples:[{...p,t:now}],distance:0};
-  body.vx=body.vy=0;lastInteraction=now;
+  body.vx=body.vy=0;body.recoveryTime=0;lastInteraction=now;
 });
 canvas.addEventListener('pointermove',event=>{
   if(!drag||event.pointerId!==drag.id)return;
@@ -157,29 +160,22 @@ function onOrientation(event){
   if(!motion.enabled||!Number.isFinite(event.beta)||!Number.isFinite(event.gamma))return;
   const now=performance.now()/1000,g=orientationGravity(event.beta,event.gamma,screenAngle());
   motion.gx+=0.25*(g.x-motion.gx);motion.gy+=0.25*(g.y-motion.gy);motion.orientationAt=now;
-  setSensorStatus('倾斜重力已开启 · 运动数据只在本机处理');
+  if(now-motion.motionAt>1)setSensorStatus('倾斜可用，尚未收到甩动数据。');
 }
 function onMotion(event){
   if(!motion.enabled)return;
   const now=performance.now()/1000,dt=motion.lastSample?clamp(now-motion.lastSample,0.005,0.05):1/60;motion.lastSample=now;
-  const raw=event.accelerationIncludingGravity,linear=event.acceleration;
-  if(raw&&[raw.x,raw.y,raw.z].every(Number.isFinite)){
-    const values=[raw.x,raw.y,raw.z];
-    const fraction=1-Math.exp(-dt*2.5);motion.raw=motion.raw.map((v,i)=>v+(values[i]-v)*fraction);
-    if(now-motion.orientationAt>0.7){
-      const screen=screenVector(-motion.raw[0]/9.81,motion.raw[1]/9.81,screenAngle());
+  const sample=readMotion(motion,event,dt);
+  if(sample.valid){
+    if(now-motion.orientationAt>0.7&&Number.isFinite(motion.raw.x)&&Number.isFinite(motion.raw.y)){
+      const screen=screenVector(-motion.raw.x/9.81,motion.raw.y/9.81,screenAngle());
       motion.gx=clamp(screen.x,-1,1);motion.gy=clamp(screen.y,-1,1);
     }
     motion.motionAt=now;
     if(!drag?.active){
-      const valid=linear&&Number.isFinite(linear.x)&&Number.isFinite(linear.y);
-      const ax=valid?linear.x:raw.x-motion.raw[0],ay=valid?linear.y:raw.y-motion.raw[1];
-      const inertial=screenVector(-ax,ay,screenAngle());
-      const strength=Math.hypot(inertial.x,inertial.y);
+      const strength=applyShake(body,sample,dt,screenAngle(),settings.motion);
       if(strength>0.75){
-        const impulse=motionImpulse(ax,ay,dt,screenAngle(),settings.motion);
-        body.vx=clamp(body.vx+impulse.x,-2400,2400);
-        body.vy=clamp(body.vy+impulse.y,-2400,2400);
+        lastInteraction=now;
         if(strength>5){shakeEnergy=0.06;const rate=event.rotationRate?.alpha;
           if(Number.isFinite(rate))body.omega=clamp(body.omega-rate*Math.PI/180*dt*2.2,-16,16);
           if(now-lastImpact>0.5){play(dragClip||idleClip,{force:0.25});lastImpact=now;}
@@ -187,6 +183,7 @@ function onMotion(event){
       }
     }
     setSensorStatus('倾斜与甩动已开启 · 运动数据只在本机处理');
+    if(now-motion.lastFeedback>.25){motion.lastFeedback=now;$('hint').textContent=Math.hypot(sample.x,sample.y,sample.z)>3.5?'甩动已收到 · 大肥鱼加速中':'抓起来甩一甩 · 轻轻摸摸头';}
   }
 }
 async function enableMotion(){
@@ -199,7 +196,7 @@ async function enableMotion(){
     if(typeof window.DeviceOrientationEvent?.requestPermission==='function')requests.push(window.DeviceOrientationEvent.requestPermission());
     const results=await Promise.all(requests);
     if(results.some(result=>result!=='granted')){setSensorStatus('运动权限未允许；可以继续用手指互动。');say('允许运动权限后，就能跟着手机倾斜啦。',4);return;}
-    motion.enabled=true;motion.lastSample=0;motion.motionAt=motion.orientationAt=performance.now()/1000;
+    motion.enabled=true;motion.lastSample=0;motion.raw={};motion.motionAt=motion.orientationAt=performance.now()/1000;
     $('motionButton').textContent='倾斜重力已开启';setSensorStatus('等待运动数据…');
     addEventListener('deviceorientation',onOrientation);addEventListener('devicemotion',onMotion);
   }catch{setSensorStatus('没有取得运动权限，请在 Safari 中重新开启。');say('请在 Safari 中重新开启运动权限。',4);}
@@ -226,8 +223,8 @@ async function prepareOffline(){
   offlineBusy=true;$('offlineButton').disabled=true;
   try{
     registration=registration||await navigator.serviceWorker.register('./sw.js');await navigator.serviceWorker.ready;
-    const cache=await caches.open('dafeiyu-assets-'+manifest.version);
-    const urls=['./','index.html','style.css','app.js','physics.mjs','gesture.mjs','manifest.webmanifest','credits.txt','assets/animations.json','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png',...clips.flatMap(c=>c.pages.map(p=>'assets/'+p.file))];
+    const cache=await caches.open('dafeiyu-assets-'+(manifest.assetVersion||manifest.version));
+    const urls=clips.flatMap(c=>c.pages.map(p=>'assets/'+p.file));
     let completed=0;
     for(const url of urls){
       if(!await cache.match(url)){const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw new Error('下载失败');await cache.put(url,response);}
@@ -253,9 +250,13 @@ async function start(){
       const heading=document.createElement('div');heading.className='groupTitle';heading.textContent=titles[group];$('actionList').append(heading);
       for(const clip of matches){const button=document.createElement('button');button.textContent=clip.name.replace(/^点击回应[- ]*/,'');button.addEventListener('click',()=>{play(clip,{force:clip.duration});$('actions').close();lastInteraction=performance.now()/1000;});$('actionList').append(button);}
     }
-    if('serviceWorker' in navigator&&isSecureContext)navigator.serviceWorker.register('./sw.js').then(r=>registration=r).catch(()=>{});
+    $('versionStatus').textContent='版本 '+manifest.version;
+    if('serviceWorker' in navigator&&isSecureContext)navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>{registration=r;return r.update();}).catch(()=>{});
   }catch{
     $('loading').textContent='大肥鱼还没有醒来，点这里重新加载。';$('loading').style.pointerEvents='auto';$('loading').addEventListener('click',()=>location.reload(),{once:true});
   }
 }
 start();
+// A newly activated worker owns a new shell; reload once to avoid mixed old/new modules.
+let updated=false;
+navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(!updated){updated=true;location.reload();}});
