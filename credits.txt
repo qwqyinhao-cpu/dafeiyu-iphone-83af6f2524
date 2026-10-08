@@ -187,3 +187,5 @@ SOFTWARE.
 2026-10-08 新可选声库：中文7句 no7z/hsk-sentences-audio，CosyVoice2预合成、内置中文女声，音频单独 CC BY-SA 4.0；格式转换，不改音高或语速。
 日语8段 Signalight/codex-to-dsh-pet / yabo083，预先制作Qwen3-TTS VoiceDesign音频，单独MIT；非鲸鱼娘原作者配音。
 非语言摸头笑声 Cici Fyre，CC0。各音频署名、来源和许可位于 assets/voice；不读取对话、不录音、不上传内容。
+
+新中文固定台词：本项目使用 Qwen 官方内置 Vivian 声线在本机生成三句录音，无参考录音、无真人声线克隆。模型与代码 Apache-2.0，来源及版本见 fresh 声库说明。模型不进入安装包或网页；配音不代表鲸鱼娘原作者或原视频配音。本说明不承诺生成录音的排他版权。

@@ -4,7 +4,7 @@ import {readMotion,applyShake} from './motion.mjs';
 import {voiceFilename,recordedText} from './voice.mjs';
 
 const $=id=>document.getElementById(id),canvas=$('pet'),ctx=canvas.getContext('2d',{alpha:true});
-const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,voicePack:'gentle',lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
+const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,voicePack:'fresh',lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
 const storageKey='dafeiyu.motion.v1';
 let settings={...defaults};
 try{
