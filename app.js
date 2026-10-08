@@ -1,9 +1,10 @@
 import {clamp,rotate,orientationGravity,screenVector,releaseVelocity,stepBody,fitBody} from './physics.mjs';
 import {updateDragGesture} from './gesture.mjs';
 import {readMotion,applyShake} from './motion.mjs';
+import {voiceFilename,recordedText} from './voice.mjs';
 
 const $=id=>document.getElementById(id),canvas=$('pet'),ctx=canvas.getContext('2d',{alpha:true});
-const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
+const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,voicePack:'gentle',lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
 const storageKey='dafeiyu.motion.v1';
 let settings={...defaults};
 try{
@@ -12,6 +13,7 @@ try{
     for(const key of ['gravity','motion','bounce','size'])if(Number.isFinite(saved[key]))settings[key]=clamp(saved[key],key==='bounce'?0.2:0.3,key==='size'?1.15:key==='bounce'?0.9:2);
     if(typeof saved.talk==='boolean')settings.talk=saved.talk;
     if(typeof saved.voice==='boolean')settings.voice=saved.voice;
+    if(['gentle','scene','fresh'].includes(saved.voicePack))settings.voicePack=saved.voicePack;
     if(Array.isArray(saved.lines))settings.lines=saved.lines.filter(s=>typeof s==='string'&&s.trim()).slice(0,30).map(s=>s.slice(0,100));
   }
 }catch{}
@@ -22,12 +24,12 @@ let lastFrame=0,lastInteraction=0,nextIdle=0,bubbleUntil=0,lastImpact=-10,contac
 let randomGroup=[],clickGroup=[],dragClip=null,idleClip=null,nextTalk=0,forcedUntil=0;
 const motion={enabled:false,orientationAt:0,motionAt:0,lastSample:0,gx:0,gy:1,raw:{},status:'运动传感器尚未开启',lastFeedback:0};
 const voiceAudio=new Audio();voiceAudio.volume=.7;
-let voiceEntries=[],voiceLast=-10;
+let voiceEntries=[],voiceData={},voiceLast=-10;
 function speak(text){
   if(!settings.voice||!voiceAudio.paused||performance.now()/1000-voiceLast<2.5)return;
-  const entry=voiceEntries.find(item=>item.text===text);
-  if(!entry)return;
-  voiceLast=performance.now()/1000;voiceAudio.src='assets/voice/'+entry.mp3;
+  const filename=voiceFilename(voiceData,settings.voicePack,text);
+  if(!filename)return;
+  voiceLast=performance.now()/1000;voiceAudio.src='assets/voice/'+filename;
   voiceAudio.play().then(()=>{$('voiceStatus').textContent='角色声音已开启 · 播放不上传数据';}).catch(()=>{$('voiceStatus').textContent='轻点“试听角色声音”，再开始互动。';});
 }
 
@@ -43,7 +45,7 @@ function layout(){
 }
 addEventListener('resize',layout);layout();
 
-function say(text,duration=3){if(!text)return;$('bubble').textContent=text;$('bubble').hidden=false;bubbleUntil=performance.now()/1000+duration;speak(text);}
+function say(text,duration=3){if(!text)return;text=recordedText(voiceData,settings.voicePack,text,settings.voice);$('bubble').textContent=text;$('bubble').hidden=false;bubbleUntil=performance.now()/1000+duration;speak(text);}
 function sayRandom(){if(settings.talk&&settings.lines.length)say(settings.lines[Math.floor(Math.random()*settings.lines.length)]);}
 function updateBubble(now){
   if(now>bubbleUntil){$('bubble').hidden=true;return;}
@@ -224,8 +226,9 @@ for(const key of ['gravity','motion','bounce','size']){
 }
 $('talkInput').checked=settings.talk;$('talkInput').addEventListener('change',()=>{settings.talk=$('talkInput').checked;nextTalk=performance.now()/1000+50;save();});
 $('voiceInput').checked=settings.voice;
-$('voiceInput').addEventListener('change',()=>{settings.voice=$('voiceInput').checked;save();if(settings.voice)speak('摸摸头，今天也要开心。');else{voiceAudio.pause();$('voiceStatus').textContent='角色声音已关闭';}});
-$('voicePreview').addEventListener('click',()=>{settings.voice=true;$('voiceInput').checked=true;save();voiceAudio.pause();voiceLast=-10;speak('摸摸头，今天也要开心。');});
+$('voiceInput').addEventListener('change',()=>{settings.voice=$('voiceInput').checked;save();if(settings.voice)speak(recordedText(voiceData,settings.voicePack,'摸摸头，今天也要开心。',true));else{voiceAudio.pause();$('voiceStatus').textContent='角色声音已关闭';}});
+$('voicePack').addEventListener('change',()=>{voiceAudio.pause();voiceLast=-10;settings.voicePack=$('voicePack').value;save();$('voiceStatus').textContent='已选择 '+(voiceData.packs?.[settings.voicePack]?.label||'角色声线');});
+$('voicePreview').addEventListener('click',()=>{const entry=voiceEntries.find(e=>e.pack===settings.voicePack);if(!entry)return;voiceAudio.pause();voiceLast=-10;const filename=voiceFilename(voiceData,settings.voicePack,entry.text||entry.preview_key);if(!filename)return;voiceAudio.src='assets/voice/'+filename;voiceAudio.play().then(()=>{$('voiceStatus').textContent='试听中 · '+voiceData.packs[settings.voicePack].label+' · 静音设置未改变';}).catch(()=>{$('voiceStatus').textContent='无法播放，请检查手机音量后重试。';});});
 $('linesInput').value=settings.lines.join('\n');$('linesInput').addEventListener('change',()=>{settings.lines=$('linesInput').value.split('\n').map(s=>s.trim()).filter(Boolean).slice(0,30).map(s=>s.slice(0,100));save();});
 document.addEventListener('visibilitychange',()=>{lastFrame=0;motion.lastSample=0;drag=null;if(document.hidden){body.vx=body.vy=body.omega=0;}});
 
@@ -253,7 +256,7 @@ async function start(){
   try{
     const response=await fetch('assets/animations.json',{cache:'no-cache'});if(!response.ok)throw new Error('manifest');manifest=await response.json();clips=manifest.clips;
     idleClip=clips.find(c=>c.name==='待机呼吸休闲')||clips.find(c=>c.group==='idle')||clips[0];
-    try{const v=await fetch('assets/voice/manifest.json');const data=await v.json();voiceEntries=(data.entries||[]).filter(e=>typeof e.text==='string'&&typeof e.mp3==='string'&&/^[a-z0-9-]+\.mp3$/.test(e.mp3));}catch{$('voiceStatus').textContent='声音暂时未加载，可联网后重试。';}
+    try{const v=await fetch('assets/voice/manifest.json');voiceData=await v.json();voiceEntries=(voiceData.entries||[]).filter(e=>typeof e.mp3==='string'&&/^[a-z0-9-]+\.mp3$/.test(e.mp3));for(const [key,pack] of Object.entries(voiceData.packs||{})){if(!['gentle','scene','fresh'].includes(key))continue;const option=document.createElement('option');option.value=key;option.textContent=pack.label;$('voicePack').append(option);}$('voicePack').value=settings.voicePack;}catch{$('voiceStatus').textContent='声音暂时未加载，可联网后重试。';}
     dragClip=clips.find(c=>c.group==='drag');clickGroup=clips.filter(c=>c.group==='click');
     randomGroup=clips.filter(c=>c.group==='random'||c.group==='idle');
     await play(idleClip);if(!current)throw new Error('image');ready=true;$('loading').hidden=true;

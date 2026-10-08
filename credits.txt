@@ -183,3 +183,7 @@ SOFTWARE.
 若你为合规主动删除它们，请一并移除或调整该断言。
 
 2026-10-08 新增角色配音：使用 hexgrad/Kokoro-82M-v1.1-zh 内置声线 zf_001 本机生成16句。模型 Apache-2.0，kokoro-onnx MIT；非原作者原声、未克隆私人声音。许可和来源保存在 assets/voice/。官方模型：https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
+
+2026-10-08 新可选声库：中文7句 no7z/hsk-sentences-audio，CosyVoice2预合成、内置中文女声，音频单独 CC BY-SA 4.0；格式转换，不改音高或语速。
+日语8段 Signalight/codex-to-dsh-pet / yabo083，预先制作Qwen3-TTS VoiceDesign音频，单独MIT；非鲸鱼娘原作者配音。
+非语言摸头笑声 Cici Fyre，CC0。各音频署名、来源和许可位于 assets/voice；不读取对话、不录音、不上传内容。
