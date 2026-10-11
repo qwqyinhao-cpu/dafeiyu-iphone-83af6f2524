@@ -4,7 +4,9 @@ import {readMotion,applyShake} from './motion.mjs';
 import {voiceFilename,recordedText} from './voice.mjs';
 
 const $=id=>document.getElementById(id),canvas=$('pet'),ctx=canvas.getContext('2d',{alpha:true});
-const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,voicePack:'fresh',lines:['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。']};
+const defaultLines=['哦鲸鲸','我要吃大白饭','主人轻点蹬，token要用完了','是好模型吗','我要看鱼片','别逗你大肥鱼笑了','压力一只大肥鱼？','Ciallo～(∠・ω< )⌒☆','敢跟我说话，你的token是批发的吗'];
+const oldDefaultLines=[['摸摸头，今天也要开心。','大肥鱼在这里陪你。','慢慢来，我不着急。'],['白饭，我要大白饭。','我就有吃不完的大白饭啦。','点个关注投个币好不好呀？','就吃不起大白饭了。','就要吃不起大白饭了。','嗯，白饭。','啊，对不起对不起。','终于找到啦。','终于收拾完了。']].map(lines=>JSON.stringify(lines));
+const defaults={gravity:1,motion:1,bounce:0.62,size:0.9,talk:true,voice:false,voicePack:'deepseek',lines:defaultLines};
 const storageKey='dafeiyu.motion.v1';
 let settings={...defaults};
 try{
@@ -13,8 +15,9 @@ try{
     for(const key of ['gravity','motion','bounce','size'])if(Number.isFinite(saved[key]))settings[key]=clamp(saved[key],key==='bounce'?0.2:0.3,key==='size'?1.15:key==='bounce'?0.9:2);
     if(typeof saved.talk==='boolean')settings.talk=saved.talk;
     if(typeof saved.voice==='boolean')settings.voice=saved.voice;
-    if(['gentle','scene','fresh'].includes(saved.voicePack))settings.voicePack=saved.voicePack;
-    if(Array.isArray(saved.lines))settings.lines=saved.lines.filter(s=>typeof s==='string'&&s.trim()).slice(0,30).map(s=>s.slice(0,100));
+    if(['deepseek'].includes(saved.voicePack))settings.voicePack=saved.voicePack;
+    // 没改过台词的旧用户（仍是以前的默认台词）换成新的九句；自己改过的保持原样。
+    if(Array.isArray(saved.lines)&&!oldDefaultLines.includes(JSON.stringify(saved.lines)))settings.lines=saved.lines.filter(s=>typeof s==='string'&&s.trim()).slice(0,30).map(s=>s.slice(0,100));
   }
 }catch{}
 const body={x:0,y:0,vx:0,vy:0,angle:0,omega:0,width:150,height:188};
@@ -256,7 +259,7 @@ async function start(){
   try{
     const response=await fetch('assets/animations.json',{cache:'no-cache'});if(!response.ok)throw new Error('manifest');manifest=await response.json();clips=manifest.clips;
     idleClip=clips.find(c=>c.name==='待机呼吸休闲')||clips.find(c=>c.group==='idle')||clips[0];
-    try{const v=await fetch('assets/voice/manifest.json');voiceData=await v.json();voiceEntries=(voiceData.entries||[]).filter(e=>typeof e.mp3==='string'&&/^[a-z0-9-]+\.mp3$/.test(e.mp3));for(const [key,pack] of Object.entries(voiceData.packs||{})){if(!['gentle','scene','fresh'].includes(key))continue;const option=document.createElement('option');option.value=key;option.textContent=pack.label;$('voicePack').append(option);}$('voicePack').value=settings.voicePack;}catch{$('voiceStatus').textContent='声音暂时未加载，可联网后重试。';}
+    try{const v=await fetch('assets/voice/manifest.json');voiceData=await v.json();voiceEntries=(voiceData.entries||[]).filter(e=>typeof e.mp3==='string'&&/^[a-z0-9-]+\.mp3$/.test(e.mp3));for(const [key,pack] of Object.entries(voiceData.packs||{})){if(!['deepseek'].includes(key))continue;const option=document.createElement('option');option.value=key;option.textContent=pack.label;$('voicePack').append(option);}$('voicePack').value=settings.voicePack;}catch{$('voiceStatus').textContent='声音暂时未加载，可联网后重试。';}
     dragClip=clips.find(c=>c.group==='drag');clickGroup=clips.filter(c=>c.group==='click');
     randomGroup=clips.filter(c=>c.group==='random'||c.group==='idle');
     await play(idleClip);if(!current)throw new Error('image');ready=true;$('loading').hidden=true;

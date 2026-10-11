@@ -1,4 +1,4 @@
-const allowed = new Set(['gentle', 'scene', 'fresh']);
+const allowed = new Set(['deepseek']);
 export function voiceFilename(data, pack, text) {
   if (!allowed.has(pack) || typeof text !== 'string') return null;
   const entries = Array.isArray(data.entries) ? data.entries.slice(0, 64) : [];
