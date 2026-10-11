@@ -1,4 +1,4 @@
-const VERSION='20261011-2',CORE='dafeiyu-core-'+VERSION,ASSETS='dafeiyu-assets-20261007-4';
+const VERSION='20261011-3',CORE='dafeiyu-core-'+VERSION,ASSETS='dafeiyu-assets-20261011-3';
 const SHELL=["./", "index.html", "style.css", "app.js", "physics.mjs", "gesture.mjs", "motion.mjs", "manifest.webmanifest", "credits.txt", "assets/animations.json", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png", "voice.mjs", "assets/voice/manifest.json", "assets/voice/deepseek-01.mp3", "assets/voice/deepseek-02.mp3", "assets/voice/deepseek-03.mp3", "assets/voice/deepseek-04.mp3", "assets/voice/deepseek-05.mp3", "assets/voice/deepseek-06.mp3", "assets/voice/deepseek-07.mp3", "assets/voice/deepseek-08.mp3", "assets/voice/deepseek-09.mp3"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CORE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('dafeiyu-')&&key!==CORE&&key!==ASSETS).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

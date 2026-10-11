@@ -1,1 +1,4225 @@
-{"version":"20261011-2","width":448,"height":252,"body":[148.4,42,299.6,231],"anchor":[224,136.5],"clips":[{"id":"117fb104b6e8","name":"待机呼吸休闲","group":"idle","frames":241,"fps":24,"tileW":173,"tileH":195,"cols":10,"left":135,"top":39,"pages":[{"file":"117fb104b6e8-0.webp","start":0,"count":150},{"file":"117fb104b6e8-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"idle/待机呼吸休闲.webm"},{"id":"f07dda74fca3","name":"被鼠标拖拽悬空反馈","group":"drag","frames":241,"fps":24,"tileW":177,"tileH":218,"cols":10,"left":141,"top":16,"pages":[{"file":"f07dda74fca3-0.webp","start":0,"count":130},{"file":"f07dda74fca3-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"drag/被鼠标拖拽悬空反馈.webm"},{"id":"6217440adc87","name":"点击回应-开心跃动","group":"click","frames":241,"fps":24,"tileW":197,"tileH":223,"cols":10,"left":126,"top":11,"pages":[{"file":"6217440adc87-0.webp","start":0,"count":130},{"file":"6217440adc87-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"click/点击回应-开心跃动.webm"},{"id":"2540260bd68c","name":"点击回应-傲娇生气","group":"click","frames":241,"fps":24,"tileW":164,"tileH":194,"cols":10,"left":139,"top":40,"pages":[{"file":"2540260bd68c-0.webp","start":0,"count":150},{"file":"2540260bd68c-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"click/点击回应-傲娇生气.webm"},{"id":"850f6f5119d3","name":"点击回应-元气挥手","group":"click","frames":241,"fps":24,"tileW":161,"tileH":211,"cols":10,"left":143,"top":23,"pages":[{"file":"850f6f5119d3-0.webp","start":0,"count":140},{"file":"850f6f5119d3-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"click/点击回应-元气挥手.webm"},{"id":"be0f1959f9a7","name":"点击回应-害羞惊讶","group":"click","frames":241,"fps":24,"tileW":230,"tileH":192,"cols":10,"left":78,"top":42,"pages":[{"file":"be0f1959f9a7-0.webp","start":0,"count":130},{"file":"be0f1959f9a7-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"click/点击回应-害羞惊讶.webm"},{"id":"13845f1a3d2d","name":"点击回应-挠痒咯咯笑","group":"click","frames":241,"fps":24,"tileW":168,"tileH":196,"cols":10,"left":141,"top":38,"pages":[{"file":"13845f1a3d2d-0.webp","start":0,"count":150},{"file":"13845f1a3d2d-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"click/点击回应-挠痒咯咯笑.webm"},{"id":"05f5d1045a9e","name":"余额-分文不剩","group":"events","frames":241,"fps":24,"tileW":333,"tileH":226,"cols":9,"left":51,"top":26,"pages":[{"file":"05f5d1045a9e-0.webp","start":0,"count":72},{"file":"05f5d1045a9e-1.webp","start":72,"count":72},{"file":"05f5d1045a9e-2.webp","start":144,"count":72},{"file":"05f5d1045a9e-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"events/balance/余额-分文不剩.webm"},{"id":"21ea9318d372","name":"余额-数金皱眉","group":"events","frames":241,"fps":24,"tileW":162,"tileH":193,"cols":10,"left":144,"top":41,"pages":[{"file":"21ea9318d372-0.webp","start":0,"count":150},{"file":"21ea9318d372-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"events/balance/余额-数金皱眉.webm"},{"id":"60e87433169a","name":"余额-袋空如洗","group":"events","frames":241,"fps":24,"tileW":335,"tileH":227,"cols":8,"left":50,"top":25,"pages":[{"file":"60e87433169a-0.webp","start":0,"count":72},{"file":"60e87433169a-1.webp","start":72,"count":72},{"file":"60e87433169a-2.webp","start":144,"count":72},{"file":"60e87433169a-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"events/balance/余额-袋空如洗.webm"},{"id":"0dc147cc7809","name":"余额-金袋叮当","group":"events","frames":241,"fps":24,"tileW":358,"tileH":231,"cols":8,"left":52,"top":21,"pages":[{"file":"0dc147cc7809-0.webp","start":0,"count":72},{"file":"0dc147cc7809-1.webp","start":72,"count":72},{"file":"0dc147cc7809-2.webp","start":144,"count":72},{"file":"0dc147cc7809-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"events/balance/余额-金袋叮当.webm"},{"id":"dff2b8b45ac6","name":"余额-钱袋如常","group":"events","frames":241,"fps":24,"tileW":336,"tileH":226,"cols":8,"left":49,"top":26,"pages":[{"file":"dff2b8b45ac6-0.webp","start":0,"count":72},{"file":"dff2b8b45ac6-1.webp","start":72,"count":72},{"file":"dff2b8b45ac6-2.webp","start":144,"count":72},{"file":"dff2b8b45ac6-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"events/balance/余额-钱袋如常.webm"},{"id":"c9baea23d776","name":"余额-钱袋满溢","group":"events","frames":241,"fps":24,"tileW":354,"tileH":226,"cols":8,"left":56,"top":22,"pages":[{"file":"c9baea23d776-0.webp","start":0,"count":72},{"file":"c9baea23d776-1.webp","start":72,"count":72},{"file":"c9baea23d776-2.webp","start":144,"count":72},{"file":"c9baea23d776-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"events/balance/余额-钱袋满溢.webm"},{"id":"ad2a32c0438f","name":"左转奔跑","group":"move","frames":241,"fps":24,"tileW":247,"tileH":200,"cols":10,"left":82,"top":37,"pages":[{"file":"ad2a32c0438f-0.webp","start":0,"count":120},{"file":"ad2a32c0438f-1.webp","start":120,"count":120},{"file":"ad2a32c0438f-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"move/左转奔跑.webm"},{"id":"8b9cbea899fb","name":"漂浮踏步","group":"move","frames":241,"fps":24,"tileW":159,"tileH":197,"cols":10,"left":146,"top":39,"pages":[{"file":"8b9cbea899fb-0.webp","start":0,"count":150},{"file":"8b9cbea899fb-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"move/漂浮踏步.webm"},{"id":"5f3ce6e92684","name":"螃蟹走路","group":"move","frames":241,"fps":24,"tileW":190,"tileH":193,"cols":10,"left":128,"top":42,"pages":[{"file":"5f3ce6e92684-0.webp","start":0,"count":150},{"file":"5f3ce6e92684-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"move/螃蟹走路.webm"},{"id":"cdf9b6599e69","name":"三球抛接","group":"random","frames":241,"fps":24,"tileW":164,"tileH":211,"cols":10,"left":143,"top":23,"pages":[{"file":"cdf9b6599e69-0.webp","start":0,"count":140},{"file":"cdf9b6599e69-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/三球抛接.webm"},{"id":"f8bdf0e416be","name":"下五子棋","group":"random","frames":241,"fps":24,"tileW":172,"tileH":211,"cols":10,"left":140,"top":33,"pages":[{"file":"f8bdf0e416be-0.webp","start":0,"count":140},{"file":"f8bdf0e416be-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/下五子棋.webm"},{"id":"988c0f654820","name":"中秋赏月吃月饼","group":"random","frames":241,"fps":24,"tileW":275,"tileH":201,"cols":10,"left":136,"top":33,"pages":[{"file":"988c0f654820-0.webp","start":0,"count":100},{"file":"988c0f654820-1.webp","start":100,"count":100},{"file":"988c0f654820-2.webp","start":200,"count":41}],"duration":10.041666666666666,"source":"random/中秋赏月吃月饼.webm"},{"id":"d48544d2125d","name":"优雅女仆舞","group":"random","frames":241,"fps":24,"tileW":188,"tileH":201,"cols":10,"left":140,"top":34,"pages":[{"file":"d48544d2125d-0.webp","start":0,"count":140},{"file":"d48544d2125d-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/优雅女仆舞.webm"},{"id":"dfcc279b12d0","name":"偷吃零食被抓住","group":"random","frames":241,"fps":24,"tileW":164,"tileH":215,"cols":10,"left":145,"top":19,"pages":[{"file":"dfcc279b12d0-0.webp","start":0,"count":130},{"file":"dfcc279b12d0-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/偷吃零食被抓住.webm"},{"id":"1652b9591541","name":"写代码","group":"random","frames":241,"fps":24,"tileW":159,"tileH":194,"cols":10,"left":145,"top":40,"pages":[{"file":"1652b9591541-0.webp","start":0,"count":150},{"file":"1652b9591541-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/写代码.webm"},{"id":"7f2d5f1c4972","name":"写福字","group":"random","frames":241,"fps":24,"tileW":189,"tileH":194,"cols":10,"left":117,"top":41,"pages":[{"file":"7f2d5f1c4972-0.webp","start":0,"count":150},{"file":"7f2d5f1c4972-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/写福字.webm"},{"id":"05bfae4861a4","name":"凭空生花","group":"random","frames":241,"fps":24,"tileW":303,"tileH":225,"cols":9,"left":82,"top":16,"pages":[{"file":"05bfae4861a4-0.webp","start":0,"count":81},{"file":"05bfae4861a4-1.webp","start":81,"count":81},{"file":"05bfae4861a4-2.webp","start":162,"count":79}],"duration":10.041666666666666,"source":"random/凭空生花.webm"},{"id":"559fa3c3ecab","name":"动物环绕","group":"random","frames":241,"fps":24,"tileW":334,"tileH":224,"cols":8,"left":52,"top":19,"pages":[{"file":"559fa3c3ecab-0.webp","start":0,"count":80},{"file":"559fa3c3ecab-1.webp","start":80,"count":80},{"file":"559fa3c3ecab-2.webp","start":160,"count":80},{"file":"559fa3c3ecab-3.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/动物环绕.webm"},{"id":"92924e25f7aa","name":"原地专心玩魔方","group":"random","frames":241,"fps":24,"tileW":189,"tileH":197,"cols":10,"left":120,"top":42,"pages":[{"file":"92924e25f7aa-0.webp","start":0,"count":150},{"file":"92924e25f7aa-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/原地专心玩魔方.webm"},{"id":"d419244dc903","name":"原地小憩沉眠","group":"random","frames":241,"fps":24,"tileW":161,"tileH":216,"cols":10,"left":142,"top":18,"pages":[{"file":"d419244dc903-0.webp","start":0,"count":130},{"file":"d419244dc903-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/原地小憩沉眠.webm"},{"id":"5636b886d132","name":"原地敲击桌面互动","group":"random","frames":241,"fps":24,"tileW":163,"tileH":192,"cols":10,"left":139,"top":42,"pages":[{"file":"5636b886d132-0.webp","start":0,"count":150},{"file":"5636b886d132-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/原地敲击桌面互动.webm"},{"id":"7551e4ed3652","name":"原地跳跃抓碎头顶物品","group":"random","frames":241,"fps":24,"tileW":293,"tileH":236,"cols":10,"left":77,"top":0,"pages":[{"file":"7551e4ed3652-0.webp","start":0,"count":80},{"file":"7551e4ed3652-1.webp","start":80,"count":80},{"file":"7551e4ed3652-2.webp","start":160,"count":80},{"file":"7551e4ed3652-3.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/原地跳跃抓碎头顶物品.webm"},{"id":"5aa645eeeee5","name":"原地蹲下玩玩具汽车","group":"random","frames":241,"fps":24,"tileW":336,"tileH":208,"cols":8,"left":50,"top":35,"pages":[{"file":"5aa645eeeee5-0.webp","start":0,"count":80},{"file":"5aa645eeeee5-1.webp","start":80,"count":80},{"file":"5aa645eeeee5-2.webp","start":160,"count":80},{"file":"5aa645eeeee5-3.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/原地蹲下玩玩具汽车.webm"},{"id":"a89543c6e3cc","name":"原地重力下蹲压缩","group":"random","frames":241,"fps":24,"tileW":177,"tileH":208,"cols":10,"left":143,"top":30,"pages":[{"file":"a89543c6e3cc-0.webp","start":0,"count":140},{"file":"a89543c6e3cc-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/原地重力下蹲压缩.webm"},{"id":"1b01ffbdbad6","name":"变鸽子","group":"random","frames":241,"fps":24,"tileW":289,"tileH":220,"cols":10,"left":81,"top":14,"pages":[{"file":"1b01ffbdbad6-0.webp","start":0,"count":90},{"file":"1b01ffbdbad6-1.webp","start":90,"count":90},{"file":"1b01ffbdbad6-2.webp","start":180,"count":61}],"duration":10.041666666666666,"source":"random/变鸽子.webm"},{"id":"a4a8653f4fe8","name":"可爱宅舞","group":"random","frames":241,"fps":24,"tileW":170,"tileH":197,"cols":10,"left":143,"top":37,"pages":[{"file":"a4a8653f4fe8-0.webp","start":0,"count":150},{"file":"a4a8653f4fe8-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/可爱宅舞.webm"},{"id":"c7c33c4d51e5","name":"吃Token","group":"random","frames":241,"fps":24,"tileW":254,"tileH":196,"cols":10,"left":97,"top":39,"pages":[{"file":"c7c33c4d51e5-0.webp","start":0,"count":120},{"file":"c7c33c4d51e5-1.webp","start":120,"count":120},{"file":"c7c33c4d51e5-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/吃Token.webm"},{"id":"932f1ee67a32","name":"吃冰淇淋融化","group":"random","frames":241,"fps":24,"tileW":161,"tileH":197,"cols":10,"left":143,"top":40,"pages":[{"file":"932f1ee67a32-0.webp","start":0,"count":150},{"file":"932f1ee67a32-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃冰淇淋融化.webm"},{"id":"0f191d049fea","name":"吃午餐","group":"random","frames":241,"fps":24,"tileW":164,"tileH":195,"cols":10,"left":141,"top":40,"pages":[{"file":"0f191d049fea-0.webp","start":0,"count":150},{"file":"0f191d049fea-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃午餐.webm"},{"id":"59350fd22c45","name":"吃大闸蟹","group":"random","frames":241,"fps":24,"tileW":179,"tileH":200,"cols":10,"left":140,"top":41,"pages":[{"file":"59350fd22c45-0.webp","start":0,"count":150},{"file":"59350fd22c45-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃大闸蟹.webm"},{"id":"a580e53a4649","name":"吃年糕","group":"random","frames":241,"fps":24,"tileW":166,"tileH":193,"cols":10,"left":139,"top":41,"pages":[{"file":"a580e53a4649-0.webp","start":0,"count":150},{"file":"a580e53a4649-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃年糕.webm"},{"id":"4b50a7f58059","name":"吃早餐","group":"random","frames":241,"fps":24,"tileW":160,"tileH":193,"cols":10,"left":144,"top":40,"pages":[{"file":"4b50a7f58059-0.webp","start":0,"count":150},{"file":"4b50a7f58059-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃早餐.webm"},{"id":"b7a67b1c1f22","name":"吃晚餐","group":"random","frames":241,"fps":24,"tileW":319,"tileH":198,"cols":9,"left":67,"top":40,"pages":[{"file":"b7a67b1c1f22-0.webp","start":0,"count":90},{"file":"b7a67b1c1f22-1.webp","start":90,"count":90},{"file":"b7a67b1c1f22-2.webp","start":180,"count":61}],"duration":10.041666666666666,"source":"random/吃晚餐.webm"},{"id":"6f046b665486","name":"吃汤圆","group":"random","frames":241,"fps":24,"tileW":160,"tileH":191,"cols":10,"left":146,"top":42,"pages":[{"file":"6f046b665486-0.webp","start":0,"count":150},{"file":"6f046b665486-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃汤圆.webm"},{"id":"3e15c61287d0","name":"吃白饭","group":"random","frames":241,"fps":24,"tileW":167,"tileH":197,"cols":10,"left":140,"top":41,"pages":[{"file":"3e15c61287d0-0.webp","start":0,"count":150},{"file":"3e15c61287d0-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃白饭.webm"},{"id":"f208cc91f3b0","name":"吃粽子","group":"random","frames":241,"fps":24,"tileW":163,"tileH":193,"cols":10,"left":145,"top":42,"pages":[{"file":"f208cc91f3b0-0.webp","start":0,"count":150},{"file":"f208cc91f3b0-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃粽子.webm"},{"id":"2142a1ad3c9e","name":"吃糖葫芦","group":"random","frames":241,"fps":24,"tileW":170,"tileH":194,"cols":10,"left":140,"top":40,"pages":[{"file":"2142a1ad3c9e-0.webp","start":0,"count":150},{"file":"2142a1ad3c9e-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃糖葫芦.webm"},{"id":"fc8149ffcdc6","name":"吃腊八粥","group":"random","frames":241,"fps":24,"tileW":164,"tileH":191,"cols":10,"left":139,"top":42,"pages":[{"file":"fc8149ffcdc6-0.webp","start":0,"count":150},{"file":"fc8149ffcdc6-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃腊八粥.webm"},{"id":"e33beef483f8","name":"吃西瓜","group":"random","frames":241,"fps":24,"tileW":167,"tileH":195,"cols":10,"left":141,"top":40,"pages":[{"file":"e33beef483f8-0.webp","start":0,"count":150},{"file":"e33beef483f8-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃西瓜.webm"},{"id":"a19817e5fc31","name":"吃重阳糕","group":"random","frames":241,"fps":24,"tileW":162,"tileH":193,"cols":10,"left":145,"top":41,"pages":[{"file":"a19817e5fc31-0.webp","start":0,"count":150},{"file":"a19817e5fc31-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃重阳糕.webm"},{"id":"46cc78cdefb7","name":"吃长寿面","group":"random","frames":241,"fps":24,"tileW":222,"tileH":193,"cols":10,"left":87,"top":40,"pages":[{"file":"46cc78cdefb7-0.webp","start":0,"count":140},{"file":"46cc78cdefb7-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/吃长寿面.webm"},{"id":"b086f986ef59","name":"吃青团","group":"random","frames":241,"fps":24,"tileW":162,"tileH":193,"cols":10,"left":143,"top":41,"pages":[{"file":"b086f986ef59-0.webp","start":0,"count":150},{"file":"b086f986ef59-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/吃青团.webm"},{"id":"ce65232ac105","name":"吃饺子","group":"random","frames":241,"fps":24,"tileW":185,"tileH":219,"cols":10,"left":133,"top":22,"pages":[{"file":"ce65232ac105-0.webp","start":0,"count":130},{"file":"ce65232ac105-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/吃饺子.webm"},{"id":"730e159ab013","name":"吹气球","group":"random","frames":241,"fps":24,"tileW":416,"tileH":230,"cols":7,"left":12,"top":22,"pages":[{"file":"730e159ab013-0.webp","start":0,"count":56},{"file":"730e159ab013-1.webp","start":56,"count":56},{"file":"730e159ab013-2.webp","start":112,"count":56},{"file":"730e159ab013-3.webp","start":168,"count":56},{"file":"730e159ab013-4.webp","start":224,"count":17}],"duration":10.041666666666666,"source":"random/吹气球.webm"},{"id":"1ae9fefcd374","name":"吹笛子","group":"random","frames":241,"fps":24,"tileW":334,"tileH":222,"cols":8,"left":50,"top":15,"pages":[{"file":"1ae9fefcd374-0.webp","start":0,"count":80},{"file":"1ae9fefcd374-1.webp","start":80,"count":80},{"file":"1ae9fefcd374-2.webp","start":160,"count":80},{"file":"1ae9fefcd374-3.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/吹笛子.webm"},{"id":"1af9465c8af1","name":"哈欠连天","group":"random","frames":241,"fps":24,"tileW":163,"tileH":195,"cols":10,"left":142,"top":39,"pages":[{"file":"1af9465c8af1-0.webp","start":0,"count":150},{"file":"1af9465c8af1-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/哈欠连天.webm"},{"id":"7b38aad52280","name":"堆雪人","group":"random","frames":241,"fps":24,"tileW":206,"tileH":200,"cols":10,"left":136,"top":42,"pages":[{"file":"7b38aad52280-0.webp","start":0,"count":140},{"file":"7b38aad52280-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/堆雪人.webm"},{"id":"64d07f799866","name":"大口吃零食","group":"random","frames":241,"fps":24,"tileW":394,"tileH":224,"cols":7,"left":22,"top":28,"pages":[{"file":"64d07f799866-0.webp","start":0,"count":63},{"file":"64d07f799866-1.webp","start":63,"count":63},{"file":"64d07f799866-2.webp","start":126,"count":63},{"file":"64d07f799866-3.webp","start":189,"count":52}],"duration":10.041666666666666,"source":"random/大口吃零食.webm"},{"id":"c6a2126cf1cf","name":"女仆屈膝礼仪","group":"random","frames":241,"fps":24,"tileW":158,"tileH":195,"cols":10,"left":145,"top":41,"pages":[{"file":"c6a2126cf1cf-0.webp","start":0,"count":150},{"file":"c6a2126cf1cf-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/女仆屈膝礼仪.webm"},{"id":"a7516171245b","name":"小幅度原地360度旋转展示","group":"random","frames":241,"fps":24,"tileW":198,"tileH":204,"cols":10,"left":131,"top":31,"pages":[{"file":"a7516171245b-0.webp","start":0,"count":140},{"file":"a7516171245b-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/小幅度原地360度旋转展示.webm"},{"id":"d23954ecb54e","name":"小提琴演奏","group":"random","frames":241,"fps":24,"tileW":238,"tileH":201,"cols":10,"left":93,"top":40,"pages":[{"file":"d23954ecb54e-0.webp","start":0,"count":120},{"file":"d23954ecb54e-1.webp","start":120,"count":120},{"file":"d23954ecb54e-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/小提琴演奏.webm"},{"id":"f01d549c9bd8","name":"工作状态-原地踱步张望","group":"random","frames":241,"fps":24,"tileW":182,"tileH":207,"cols":10,"left":127,"top":27,"pages":[{"file":"f01d549c9bd8-0.webp","start":0,"count":140},{"file":"f01d549c9bd8-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/工作状态-原地踱步张望.webm"},{"id":"209fc8916f7b","name":"工作状态-垂头叹气冒汗","group":"random","frames":118,"fps":24,"tileW":192,"tileH":201,"cols":10,"left":109,"top":32,"pages":[{"file":"209fc8916f7b-0.webp","start":0,"count":118}],"duration":4.916666666666667,"source":"random/工作状态-垂头叹气冒汗.webm"},{"id":"34246eb8ef7d","name":"工作状态-忙碌点按","group":"random","frames":241,"fps":24,"tileW":192,"tileH":232,"cols":10,"left":122,"top":2,"pages":[{"file":"34246eb8ef7d-0.webp","start":0,"count":120},{"file":"34246eb8ef7d-1.webp","start":120,"count":120},{"file":"34246eb8ef7d-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/工作状态-忙碌点按.webm"},{"id":"9e8d76e2fbaf","name":"工作状态-思考冒泡","group":"random","frames":241,"fps":24,"tileW":180,"tileH":200,"cols":10,"left":127,"top":34,"pages":[{"file":"9e8d76e2fbaf-0.webp","start":0,"count":150},{"file":"9e8d76e2fbaf-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/工作状态-思考冒泡.webm"},{"id":"fd3c6cb1d1a5","name":"工作状态-清点归档","group":"random","frames":241,"fps":24,"tileW":156,"tileH":191,"cols":10,"left":146,"top":42,"pages":[{"file":"fd3c6cb1d1a5-0.webp","start":0,"count":150},{"file":"fd3c6cb1d1a5-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/工作状态-清点归档.webm"},{"id":"26750991a570","name":"工作状态-雀跃庆祝","group":"random","frames":241,"fps":24,"tileW":213,"tileH":224,"cols":10,"left":118,"top":10,"pages":[{"file":"26750991a570-0.webp","start":0,"count":120},{"file":"26750991a570-1.webp","start":120,"count":120},{"file":"26750991a570-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/工作状态-雀跃庆祝.webm"},{"id":"3ea16be06245","name":"悠闲哼歌","group":"random","frames":241,"fps":24,"tileW":247,"tileH":232,"cols":10,"left":97,"top":2,"pages":[{"file":"3ea16be06245-0.webp","start":0,"count":100},{"file":"3ea16be06245-1.webp","start":100,"count":100},{"file":"3ea16be06245-2.webp","start":200,"count":41}],"duration":10.041666666666666,"source":"random/悠闲哼歌.webm"},{"id":"3132e13c409c","name":"扑克魔术","group":"random","frames":241,"fps":24,"tileW":183,"tileH":192,"cols":10,"left":124,"top":42,"pages":[{"file":"3132e13c409c-0.webp","start":0,"count":150},{"file":"3132e13c409c-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/扑克魔术.webm"},{"id":"c4559af4b050","name":"打瞌睡被惊醒","group":"random","frames":241,"fps":24,"tileW":179,"tileH":222,"cols":10,"left":137,"top":12,"pages":[{"file":"c4559af4b050-0.webp","start":0,"count":130},{"file":"c4559af4b050-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/打瞌睡被惊醒.webm"},{"id":"0f79084c4798","name":"抽陀螺","group":"random","frames":241,"fps":24,"tileW":196,"tileH":201,"cols":10,"left":113,"top":42,"pages":[{"file":"0f79084c4798-0.webp","start":0,"count":140},{"file":"0f79084c4798-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/抽陀螺.webm"},{"id":"8e221d305ac4","name":"拆礼物","group":"random","frames":241,"fps":24,"tileW":223,"tileH":211,"cols":10,"left":108,"top":29,"pages":[{"file":"8e221d305ac4-0.webp","start":0,"count":120},{"file":"8e221d305ac4-1.webp","start":120,"count":120},{"file":"8e221d305ac4-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/拆礼物.webm"},{"id":"2687839f0e96","name":"插茱萸赏菊","group":"random","frames":241,"fps":24,"tileW":167,"tileH":192,"cols":10,"left":143,"top":42,"pages":[{"file":"2687839f0e96-0.webp","start":0,"count":150},{"file":"2687839f0e96-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/插茱萸赏菊.webm"},{"id":"6b2851ee27e2","name":"摇扇纳凉","group":"random","frames":241,"fps":24,"tileW":224,"tileH":200,"cols":10,"left":107,"top":35,"pages":[{"file":"6b2851ee27e2-0.webp","start":0,"count":130},{"file":"6b2851ee27e2-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/摇扇纳凉.webm"},{"id":"7af508d2173e","name":"撸猫","group":"random","frames":241,"fps":24,"tileW":161,"tileH":192,"cols":10,"left":144,"top":41,"pages":[{"file":"7af508d2173e-0.webp","start":0,"count":150},{"file":"7af508d2173e-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/撸猫.webm"},{"id":"73b8437e2a15","name":"收红包","group":"random","frames":241,"fps":24,"tileW":167,"tileH":192,"cols":10,"left":143,"top":42,"pages":[{"file":"73b8437e2a15-0.webp","start":0,"count":150},{"file":"73b8437e2a15-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/收红包.webm"},{"id":"dfe67bf90167","name":"放孔明灯","group":"random","frames":241,"fps":24,"tileW":196,"tileH":248,"cols":10,"left":111,"top":0,"pages":[{"file":"dfe67bf90167-0.webp","start":0,"count":120},{"file":"dfe67bf90167-1.webp","start":120,"count":120},{"file":"dfe67bf90167-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/放孔明灯.webm"},{"id":"d939f2338241","name":"放河灯","group":"random","frames":241,"fps":24,"tileW":163,"tileH":192,"cols":10,"left":143,"top":42,"pages":[{"file":"d939f2338241-0.webp","start":0,"count":150},{"file":"d939f2338241-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/放河灯.webm"},{"id":"920438871959","name":"放烟花","group":"random","frames":241,"fps":24,"tileW":423,"tileH":252,"cols":7,"left":13,"top":0,"pages":[{"file":"920438871959-0.webp","start":0,"count":56},{"file":"920438871959-1.webp","start":56,"count":56},{"file":"920438871959-2.webp","start":112,"count":56},{"file":"920438871959-3.webp","start":168,"count":56},{"file":"920438871959-4.webp","start":224,"count":17}],"duration":10.041666666666666,"source":"random/放烟花.webm"},{"id":"5a6248629e8e","name":"放风筝","group":"random","frames":241,"fps":24,"tileW":289,"tileH":235,"cols":10,"left":70,"top":0,"pages":[{"file":"5a6248629e8e-0.webp","start":0,"count":80},{"file":"5a6248629e8e-1.webp","start":80,"count":80},{"file":"5a6248629e8e-2.webp","start":160,"count":80},{"file":"5a6248629e8e-3.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/放风筝.webm"},{"id":"9ad58651c5f1","name":"整体换装试色","group":"random","frames":241,"fps":24,"tileW":204,"tileH":199,"cols":10,"left":131,"top":35,"pages":[{"file":"9ad58651c5f1-0.webp","start":0,"count":140},{"file":"9ad58651c5f1-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/整体换装试色.webm"},{"id":"2b59500bfcbc","name":"是啊，吃什么","group":"random","frames":241,"fps":24,"tileW":391,"tileH":205,"cols":7,"left":36,"top":29,"pages":[{"file":"2b59500bfcbc-0.webp","start":0,"count":70},{"file":"2b59500bfcbc-1.webp","start":70,"count":70},{"file":"2b59500bfcbc-2.webp","start":140,"count":70},{"file":"2b59500bfcbc-3.webp","start":210,"count":31}],"duration":10.041666666666666,"source":"random/是啊，吃什么.webm"},{"id":"024fa182366a","name":"晨间刷牙","group":"random","frames":241,"fps":24,"tileW":180,"tileH":205,"cols":10,"left":128,"top":40,"pages":[{"file":"024fa182366a-0.webp","start":0,"count":140},{"file":"024fa182366a-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/晨间刷牙.webm"},{"id":"1a3a1900d358","name":"涮火锅","group":"random","frames":241,"fps":24,"tileW":169,"tileH":207,"cols":10,"left":139,"top":41,"pages":[{"file":"1a3a1900d358-0.webp","start":0,"count":140},{"file":"1a3a1900d358-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/涮火锅.webm"},{"id":"967509a4bb86","name":"深度思考碎碎念","group":"random","frames":241,"fps":24,"tileW":325,"tileH":203,"cols":9,"left":63,"top":34,"pages":[{"file":"967509a4bb86-0.webp","start":0,"count":90},{"file":"967509a4bb86-1.webp","start":90,"count":90},{"file":"967509a4bb86-2.webp","start":180,"count":61}],"duration":10.041666666666666,"source":"random/深度思考碎碎念.webm"},{"id":"0293e014a77a","name":"照镜子","group":"random","frames":241,"fps":24,"tileW":189,"tileH":199,"cols":10,"left":136,"top":35,"pages":[{"file":"0293e014a77a-0.webp","start":0,"count":150},{"file":"0293e014a77a-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/照镜子.webm"},{"id":"47e4b901c4b7","name":"玩水枪","group":"random","frames":241,"fps":24,"tileW":396,"tileH":210,"cols":7,"left":21,"top":42,"pages":[{"file":"47e4b901c4b7-0.webp","start":0,"count":70},{"file":"47e4b901c4b7-1.webp","start":70,"count":70},{"file":"47e4b901c4b7-2.webp","start":140,"count":70},{"file":"47e4b901c4b7-3.webp","start":210,"count":31}],"duration":10.041666666666666,"source":"random/玩水枪.webm"},{"id":"60bb793f06d3","name":"玩游戏气急败坏","group":"random","frames":241,"fps":24,"tileW":202,"tileH":205,"cols":10,"left":115,"top":37,"pages":[{"file":"60bb793f06d3-0.webp","start":0,"count":140},{"file":"60bb793f06d3-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/玩游戏气急败坏.webm"},{"id":"adf23923f704","name":"用鲸鱼尾巴拍打地面","group":"random","frames":241,"fps":24,"tileW":187,"tileH":193,"cols":10,"left":144,"top":41,"pages":[{"file":"adf23923f704-0.webp","start":0,"count":150},{"file":"adf23923f704-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/用鲸鱼尾巴拍打地面.webm"},{"id":"872ed856fc42","name":"碎碎念-发呆碎碎念","group":"random","frames":241,"fps":24,"tileW":163,"tileH":202,"cols":10,"left":142,"top":32,"pages":[{"file":"872ed856fc42-0.webp","start":0,"count":140},{"file":"872ed856fc42-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/碎碎念-发呆碎碎念.webm"},{"id":"9a2f1fc2249a","name":"碎碎念-对屏碎碎念","group":"random","frames":241,"fps":24,"tileW":155,"tileH":194,"cols":10,"left":147,"top":40,"pages":[{"file":"9a2f1fc2249a-0.webp","start":0,"count":150},{"file":"9a2f1fc2249a-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/碎碎念-对屏碎碎念.webm"},{"id":"f2893d241927","name":"碎碎念-擦桌碎碎念","group":"random","frames":241,"fps":24,"tileW":168,"tileH":193,"cols":10,"left":138,"top":41,"pages":[{"file":"f2893d241927-0.webp","start":0,"count":150},{"file":"f2893d241927-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/碎碎念-擦桌碎碎念.webm"},{"id":"0dc0b10fc608","name":"穿针乞巧","group":"random","frames":241,"fps":24,"tileW":251,"tileH":204,"cols":10,"left":125,"top":30,"pages":[{"file":"0dc0b10fc608-0.webp","start":0,"count":110},{"file":"0dc0b10fc608-1.webp","start":110,"count":110},{"file":"0dc0b10fc608-2.webp","start":220,"count":21}],"duration":10.041666666666666,"source":"random/穿针乞巧.webm"},{"id":"20e9aba4c5c2","name":"舞狮头","group":"random","frames":241,"fps":24,"tileW":175,"tileH":214,"cols":10,"left":138,"top":20,"pages":[{"file":"20e9aba4c5c2-0.webp","start":0,"count":140},{"file":"20e9aba4c5c2-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/舞狮头.webm"},{"id":"3c68a1658367","name":"荡秋千","group":"random","frames":241,"fps":24,"tileW":206,"tileH":224,"cols":10,"left":131,"top":10,"pages":[{"file":"3c68a1658367-0.webp","start":0,"count":130},{"file":"3c68a1658367-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/荡秋千.webm"},{"id":"777999becf68","name":"萌化小幽灵","group":"random","frames":241,"fps":24,"tileW":236,"tileH":208,"cols":10,"left":110,"top":31,"pages":[{"file":"777999becf68-0.webp","start":0,"count":120},{"file":"777999becf68-1.webp","start":120,"count":120},{"file":"777999becf68-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/萌化小幽灵.webm"},{"id":"0d8ea8dd94ce","name":"蓝鲸现世","group":"random","frames":241,"fps":24,"tileW":254,"tileH":211,"cols":10,"left":87,"top":23,"pages":[{"file":"0d8ea8dd94ce-0.webp","start":0,"count":110},{"file":"0d8ea8dd94ce-1.webp","start":110,"count":110},{"file":"0d8ea8dd94ce-2.webp","start":220,"count":21}],"duration":10.041666666666666,"source":"random/蓝鲸现世.webm"},{"id":"a8331cfe91f0","name":"蝴蝶蜜蜂环绕头顶开花","group":"random","frames":241,"fps":24,"tileW":441,"tileH":235,"cols":6,"left":2,"top":3,"pages":[{"file":"a8331cfe91f0-0.webp","start":0,"count":54},{"file":"a8331cfe91f0-1.webp","start":54,"count":54},{"file":"a8331cfe91f0-2.webp","start":108,"count":54},{"file":"a8331cfe91f0-3.webp","start":162,"count":54},{"file":"a8331cfe91f0-4.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"random/蝴蝶蜜蜂环绕头顶开花.webm"},{"id":"c470ea5aeb59","name":"被吓一跳","group":"random","frames":241,"fps":24,"tileW":166,"tileH":213,"cols":10,"left":141,"top":20,"pages":[{"file":"c470ea5aeb59-0.webp","start":0,"count":140},{"file":"c470ea5aeb59-1.webp","start":140,"count":101}],"duration":10.041666666666666,"source":"random/被吓一跳.webm"},{"id":"4c30c028277f","name":"被落叶淹没","group":"random","frames":241,"fps":24,"tileW":409,"tileH":230,"cols":7,"left":21,"top":22,"pages":[{"file":"4c30c028277f-0.webp","start":0,"count":63},{"file":"4c30c028277f-1.webp","start":63,"count":63},{"file":"4c30c028277f-2.webp","start":126,"count":63},{"file":"4c30c028277f-3.webp","start":189,"count":52}],"duration":10.041666666666666,"source":"random/被落叶淹没.webm"},{"id":"b3fb7d869a34","name":"装点圣诞树","group":"random","frames":241,"fps":24,"tileW":347,"tileH":225,"cols":8,"left":38,"top":27,"pages":[{"file":"b3fb7d869a34-0.webp","start":0,"count":72},{"file":"b3fb7d869a34-1.webp","start":72,"count":72},{"file":"b3fb7d869a34-2.webp","start":144,"count":72},{"file":"b3fb7d869a34-3.webp","start":216,"count":25}],"duration":10.041666666666666,"source":"random/装点圣诞树.webm"},{"id":"abd65ffd132a","name":"讨糖南瓜灯","group":"random","frames":241,"fps":24,"tileW":176,"tileH":194,"cols":10,"left":139,"top":41,"pages":[{"file":"abd65ffd132a-0.webp","start":0,"count":150},{"file":"abd65ffd132a-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/讨糖南瓜灯.webm"},{"id":"1cc30cde652f","name":"超大伸懒腰","group":"random","frames":241,"fps":24,"tileW":159,"tileH":196,"cols":10,"left":145,"top":38,"pages":[{"file":"1cc30cde652f-0.webp","start":0,"count":150},{"file":"1cc30cde652f-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/超大伸懒腰.webm"},{"id":"56fae5337a00","name":"踢毽子","group":"random","frames":241,"fps":24,"tileW":184,"tileH":218,"cols":10,"left":133,"top":17,"pages":[{"file":"56fae5337a00-0.webp","start":0,"count":130},{"file":"56fae5337a00-1.webp","start":130,"count":111}],"duration":10.041666666666666,"source":"random/踢毽子.webm"},{"id":"14da60aeb029","name":"轻快摇摆舞","group":"random","frames":241,"fps":24,"tileW":199,"tileH":194,"cols":10,"left":134,"top":40,"pages":[{"file":"14da60aeb029-0.webp","start":0,"count":150},{"file":"14da60aeb029-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/轻快摇摆舞.webm"},{"id":"6e61b206797f","name":"轻快记录","group":"random","frames":241,"fps":24,"tileW":174,"tileH":195,"cols":10,"left":133,"top":39,"pages":[{"file":"6e61b206797f-0.webp","start":0,"count":150},{"file":"6e61b206797f-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"random/轻快记录.webm"},{"id":"40b117bb9975","name":"骑木马","group":"random","frames":241,"fps":24,"tileW":243,"tileH":243,"cols":10,"left":105,"top":9,"pages":[{"file":"40b117bb9975-0.webp","start":0,"count":100},{"file":"40b117bb9975-1.webp","start":100,"count":100},{"file":"40b117bb9975-2.webp","start":200,"count":41}],"duration":10.041666666666666,"source":"random/骑木马.webm"},{"id":"1474490a042c","name":"鲸鱼吐泡泡特效","group":"random","frames":241,"fps":24,"tileW":226,"tileH":211,"cols":10,"left":78,"top":23,"pages":[{"file":"1474490a042c-0.webp","start":0,"count":120},{"file":"1474490a042c-1.webp","start":120,"count":120},{"file":"1474490a042c-2.webp","start":240,"count":1}],"duration":10.041666666666666,"source":"random/鲸鱼吐泡泡特效.webm"},{"id":"ce581e8fff84","name":"东张西望","group":"turn","frames":241,"fps":24,"tileW":169,"tileH":193,"cols":10,"left":143,"top":41,"pages":[{"file":"ce581e8fff84-0.webp","start":0,"count":150},{"file":"ce581e8fff84-1.webp","start":150,"count":91}],"duration":10.041666666666666,"source":"turn/东张西望.webm"}],"assetVersion":"20261007-4"}
+{
+ "version": "20261011-3",
+ "width": 448,
+ "height": 252,
+ "body": [
+  148.4,
+  42,
+  299.6,
+  231
+ ],
+ "anchor": [
+  224,
+  136.5
+ ],
+ "clips": [
+  {
+   "id": "117fb104b6e8",
+   "name": "待机呼吸休闲",
+   "group": "idle",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 242,
+   "tileH": 272,
+   "cols": 10,
+   "left": 136.5,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "117fb104b6e8-h0.webp",
+     "start": 0,
+     "count": 78
+    },
+    {
+     "file": "117fb104b6e8-h1.webp",
+     "start": 78,
+     "count": 78
+    },
+    {
+     "file": "117fb104b6e8-h2.webp",
+     "start": 156,
+     "count": 78
+    },
+    {
+     "file": "117fb104b6e8-h3.webp",
+     "start": 234,
+     "count": 7
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "idle/待机呼吸休闲.webm"
+  },
+  {
+   "id": "f07dda74fca3",
+   "name": "被鼠标拖拽悬空反馈",
+   "group": "drag",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 247,
+   "tileH": 307,
+   "cols": 10,
+   "left": 142.8,
+   "top": 17.5,
+   "pages": [
+    {
+     "file": "f07dda74fca3-h0.webp",
+     "start": 0,
+     "count": 68
+    },
+    {
+     "file": "f07dda74fca3-h1.webp",
+     "start": 68,
+     "count": 68
+    },
+    {
+     "file": "f07dda74fca3-h2.webp",
+     "start": 136,
+     "count": 68
+    },
+    {
+     "file": "f07dda74fca3-h3.webp",
+     "start": 204,
+     "count": 37
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "drag/被鼠标拖拽悬空反馈.webm"
+  },
+  {
+   "id": "6217440adc87",
+   "name": "点击回应-开心跃动",
+   "group": "click",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 275,
+   "tileH": 316,
+   "cols": 10,
+   "left": 128.1,
+   "top": 11.2,
+   "pages": [
+    {
+     "file": "6217440adc87-h0.webp",
+     "start": 0,
+     "count": 59
+    },
+    {
+     "file": "6217440adc87-h1.webp",
+     "start": 59,
+     "count": 59
+    },
+    {
+     "file": "6217440adc87-h2.webp",
+     "start": 118,
+     "count": 59
+    },
+    {
+     "file": "6217440adc87-h3.webp",
+     "start": 177,
+     "count": 59
+    },
+    {
+     "file": "6217440adc87-h4.webp",
+     "start": 236,
+     "count": 5
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "click/点击回应-开心跃动.webm"
+  },
+  {
+   "id": "2540260bd68c",
+   "name": "点击回应-傲娇生气",
+   "group": "click",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 228,
+   "tileH": 272,
+   "cols": 10,
+   "left": 141.4,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "2540260bd68c-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "2540260bd68c-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "2540260bd68c-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "click/点击回应-傲娇生气.webm"
+  },
+  {
+   "id": "850f6f5119d3",
+   "name": "点击回应-元气挥手",
+   "group": "click",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 224,
+   "tileH": 295,
+   "cols": 10,
+   "left": 144.9,
+   "top": 25.2,
+   "pages": [
+    {
+     "file": "850f6f5119d3-h0.webp",
+     "start": 0,
+     "count": 78
+    },
+    {
+     "file": "850f6f5119d3-h1.webp",
+     "start": 78,
+     "count": 78
+    },
+    {
+     "file": "850f6f5119d3-h2.webp",
+     "start": 156,
+     "count": 78
+    },
+    {
+     "file": "850f6f5119d3-h3.webp",
+     "start": 234,
+     "count": 7
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "click/点击回应-元气挥手.webm"
+  },
+  {
+   "id": "be0f1959f9a7",
+   "name": "点击回应-害羞惊讶",
+   "group": "click",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 322,
+   "tileH": 268,
+   "cols": 10,
+   "left": 80.5,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "be0f1959f9a7-h0.webp",
+     "start": 0,
+     "count": 60
+    },
+    {
+     "file": "be0f1959f9a7-h1.webp",
+     "start": 60,
+     "count": 60
+    },
+    {
+     "file": "be0f1959f9a7-h2.webp",
+     "start": 120,
+     "count": 60
+    },
+    {
+     "file": "be0f1959f9a7-h3.webp",
+     "start": 180,
+     "count": 60
+    },
+    {
+     "file": "be0f1959f9a7-h4.webp",
+     "start": 240,
+     "count": 1
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "click/点击回应-害羞惊讶.webm"
+  },
+  {
+   "id": "13845f1a3d2d",
+   "name": "点击回应-挠痒咯咯笑",
+   "group": "click",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 235,
+   "tileH": 274,
+   "cols": 10,
+   "left": 142.8,
+   "top": 39.9,
+   "pages": [
+    {
+     "file": "13845f1a3d2d-h0.webp",
+     "start": 0,
+     "count": 80
+    },
+    {
+     "file": "13845f1a3d2d-h1.webp",
+     "start": 80,
+     "count": 80
+    },
+    {
+     "file": "13845f1a3d2d-h2.webp",
+     "start": 160,
+     "count": 80
+    },
+    {
+     "file": "13845f1a3d2d-h3.webp",
+     "start": 240,
+     "count": 1
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "click/点击回应-挠痒咯咯笑.webm"
+  },
+  {
+   "id": "05f5d1045a9e",
+   "name": "余额-分文不剩",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 470,
+   "tileH": 318,
+   "cols": 10,
+   "left": 53.2,
+   "top": 28.7,
+   "pages": [
+    {
+     "file": "05f5d1045a9e-h0.webp",
+     "start": 0,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h1.webp",
+     "start": 34,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h2.webp",
+     "start": 68,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h3.webp",
+     "start": 102,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h4.webp",
+     "start": 136,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h5.webp",
+     "start": 170,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h6.webp",
+     "start": 204,
+     "count": 34
+    },
+    {
+     "file": "05f5d1045a9e-h7.webp",
+     "start": 238,
+     "count": 3
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-分文不剩.webm"
+  },
+  {
+   "id": "21ea9318d372",
+   "name": "余额-数金皱眉",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 226,
+   "tileH": 270,
+   "cols": 10,
+   "left": 145.6,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "21ea9318d372-h0.webp",
+     "start": 0,
+     "count": 85
+    },
+    {
+     "file": "21ea9318d372-h1.webp",
+     "start": 85,
+     "count": 85
+    },
+    {
+     "file": "21ea9318d372-h2.webp",
+     "start": 170,
+     "count": 71
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-数金皱眉.webm"
+  },
+  {
+   "id": "60e87433169a",
+   "name": "余额-袋空如洗",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 497,
+   "tileH": 321,
+   "cols": 10,
+   "left": 51.8,
+   "top": 26.6,
+   "pages": [
+    {
+     "file": "60e87433169a-h0.webp",
+     "start": 0,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h1.webp",
+     "start": 32,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h2.webp",
+     "start": 64,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h3.webp",
+     "start": 96,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h4.webp",
+     "start": 128,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h5.webp",
+     "start": 160,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h6.webp",
+     "start": 192,
+     "count": 32
+    },
+    {
+     "file": "60e87433169a-h7.webp",
+     "start": 224,
+     "count": 17
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-袋空如洗.webm"
+  },
+  {
+   "id": "0dc147cc7809",
+   "name": "余额-金袋叮当",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 507,
+   "tileH": 328,
+   "cols": 10,
+   "left": 53.9,
+   "top": 22.4,
+   "pages": [
+    {
+     "file": "0dc147cc7809-h0.webp",
+     "start": 0,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h1.webp",
+     "start": 31,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h2.webp",
+     "start": 62,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h3.webp",
+     "start": 93,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h4.webp",
+     "start": 124,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h5.webp",
+     "start": 155,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h6.webp",
+     "start": 186,
+     "count": 31
+    },
+    {
+     "file": "0dc147cc7809-h7.webp",
+     "start": 217,
+     "count": 24
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-金袋叮当.webm"
+  },
+  {
+   "id": "dff2b8b45ac6",
+   "name": "余额-钱袋如常",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 474,
+   "tileH": 320,
+   "cols": 10,
+   "left": 51.1,
+   "top": 28.0,
+   "pages": [
+    {
+     "file": "dff2b8b45ac6-h0.webp",
+     "start": 0,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h1.webp",
+     "start": 34,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h2.webp",
+     "start": 68,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h3.webp",
+     "start": 102,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h4.webp",
+     "start": 136,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h5.webp",
+     "start": 170,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h6.webp",
+     "start": 204,
+     "count": 34
+    },
+    {
+     "file": "dff2b8b45ac6-h7.webp",
+     "start": 238,
+     "count": 3
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-钱袋如常.webm"
+  },
+  {
+   "id": "c9baea23d776",
+   "name": "余额-钱袋满溢",
+   "group": "events",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 501,
+   "tileH": 320,
+   "cols": 10,
+   "left": 58.1,
+   "top": 22.4,
+   "pages": [
+    {
+     "file": "c9baea23d776-h0.webp",
+     "start": 0,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h1.webp",
+     "start": 32,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h2.webp",
+     "start": 64,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h3.webp",
+     "start": 96,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h4.webp",
+     "start": 128,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h5.webp",
+     "start": 160,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h6.webp",
+     "start": 192,
+     "count": 32
+    },
+    {
+     "file": "c9baea23d776-h7.webp",
+     "start": 224,
+     "count": 17
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "events/balance/余额-钱袋满溢.webm"
+  },
+  {
+   "id": "ad2a32c0438f",
+   "name": "左转奔跑",
+   "group": "move",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 348,
+   "tileH": 280,
+   "cols": 10,
+   "left": 84.0,
+   "top": 39.2,
+   "pages": [
+    {
+     "file": "ad2a32c0438f-h0.webp",
+     "start": 0,
+     "count": 53
+    },
+    {
+     "file": "ad2a32c0438f-h1.webp",
+     "start": 53,
+     "count": 53
+    },
+    {
+     "file": "ad2a32c0438f-h2.webp",
+     "start": 106,
+     "count": 53
+    },
+    {
+     "file": "ad2a32c0438f-h3.webp",
+     "start": 159,
+     "count": 53
+    },
+    {
+     "file": "ad2a32c0438f-h4.webp",
+     "start": 212,
+     "count": 29
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "move/左转奔跑.webm"
+  },
+  {
+   "id": "8b9cbea899fb",
+   "name": "漂浮踏步",
+   "group": "move",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 222,
+   "tileH": 275,
+   "cols": 10,
+   "left": 147.7,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "8b9cbea899fb-h0.webp",
+     "start": 0,
+     "count": 85
+    },
+    {
+     "file": "8b9cbea899fb-h1.webp",
+     "start": 85,
+     "count": 85
+    },
+    {
+     "file": "8b9cbea899fb-h2.webp",
+     "start": 170,
+     "count": 71
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "move/漂浮踏步.webm"
+  },
+  {
+   "id": "5f3ce6e92684",
+   "name": "螃蟹走路",
+   "group": "move",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 265,
+   "tileH": 270,
+   "cols": 10,
+   "left": 130.2,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "5f3ce6e92684-h0.webp",
+     "start": 0,
+     "count": 72
+    },
+    {
+     "file": "5f3ce6e92684-h1.webp",
+     "start": 72,
+     "count": 72
+    },
+    {
+     "file": "5f3ce6e92684-h2.webp",
+     "start": 144,
+     "count": 72
+    },
+    {
+     "file": "5f3ce6e92684-h3.webp",
+     "start": 216,
+     "count": 25
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "move/螃蟹走路.webm"
+  },
+  {
+   "id": "cdf9b6599e69",
+   "name": "三球抛接",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 228,
+   "tileH": 296,
+   "cols": 10,
+   "left": 145.6,
+   "top": 25.2,
+   "pages": [
+    {
+     "file": "cdf9b6599e69-h0.webp",
+     "start": 0,
+     "count": 77
+    },
+    {
+     "file": "cdf9b6599e69-h1.webp",
+     "start": 77,
+     "count": 77
+    },
+    {
+     "file": "cdf9b6599e69-h2.webp",
+     "start": 154,
+     "count": 77
+    },
+    {
+     "file": "cdf9b6599e69-h3.webp",
+     "start": 231,
+     "count": 10
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/三球抛接.webm"
+  },
+  {
+   "id": "f8bdf0e416be",
+   "name": "下五子棋",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 240,
+   "tileH": 295,
+   "cols": 10,
+   "left": 141.4,
+   "top": 35.0,
+   "pages": [
+    {
+     "file": "f8bdf0e416be-h0.webp",
+     "start": 0,
+     "count": 73
+    },
+    {
+     "file": "f8bdf0e416be-h1.webp",
+     "start": 73,
+     "count": 73
+    },
+    {
+     "file": "f8bdf0e416be-h2.webp",
+     "start": 146,
+     "count": 73
+    },
+    {
+     "file": "f8bdf0e416be-h3.webp",
+     "start": 219,
+     "count": 22
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/下五子棋.webm"
+  },
+  {
+   "id": "988c0f654820",
+   "name": "中秋赏月吃月饼",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 389,
+   "tileH": 282,
+   "cols": 10,
+   "left": 137.2,
+   "top": 35.0,
+   "pages": [
+    {
+     "file": "988c0f654820-h0.webp",
+     "start": 0,
+     "count": 47
+    },
+    {
+     "file": "988c0f654820-h1.webp",
+     "start": 47,
+     "count": 47
+    },
+    {
+     "file": "988c0f654820-h2.webp",
+     "start": 94,
+     "count": 47
+    },
+    {
+     "file": "988c0f654820-h3.webp",
+     "start": 141,
+     "count": 47
+    },
+    {
+     "file": "988c0f654820-h4.webp",
+     "start": 188,
+     "count": 47
+    },
+    {
+     "file": "988c0f654820-h5.webp",
+     "start": 235,
+     "count": 6
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/中秋赏月吃月饼.webm"
+  },
+  {
+   "id": "d48544d2125d",
+   "name": "优雅女仆舞",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 262,
+   "tileH": 281,
+   "cols": 10,
+   "left": 142.1,
+   "top": 36.4,
+   "pages": [
+    {
+     "file": "d48544d2125d-h0.webp",
+     "start": 0,
+     "count": 70
+    },
+    {
+     "file": "d48544d2125d-h1.webp",
+     "start": 70,
+     "count": 70
+    },
+    {
+     "file": "d48544d2125d-h2.webp",
+     "start": 140,
+     "count": 70
+    },
+    {
+     "file": "d48544d2125d-h3.webp",
+     "start": 210,
+     "count": 31
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/优雅女仆舞.webm"
+  },
+  {
+   "id": "dfcc279b12d0",
+   "name": "偷吃零食被抓住",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 230,
+   "tileH": 303,
+   "cols": 10,
+   "left": 146.3,
+   "top": 19.6,
+   "pages": [
+    {
+     "file": "dfcc279b12d0-h0.webp",
+     "start": 0,
+     "count": 74
+    },
+    {
+     "file": "dfcc279b12d0-h1.webp",
+     "start": 74,
+     "count": 74
+    },
+    {
+     "file": "dfcc279b12d0-h2.webp",
+     "start": 148,
+     "count": 74
+    },
+    {
+     "file": "dfcc279b12d0-h3.webp",
+     "start": 222,
+     "count": 19
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/偷吃零食被抓住.webm"
+  },
+  {
+   "id": "1652b9591541",
+   "name": "写代码",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 222,
+   "tileH": 271,
+   "cols": 10,
+   "left": 147.0,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "1652b9591541-h0.webp",
+     "start": 0,
+     "count": 86
+    },
+    {
+     "file": "1652b9591541-h1.webp",
+     "start": 86,
+     "count": 86
+    },
+    {
+     "file": "1652b9591541-h2.webp",
+     "start": 172,
+     "count": 69
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/写代码.webm"
+  },
+  {
+   "id": "7f2d5f1c4972",
+   "name": "写福字",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 265,
+   "tileH": 275,
+   "cols": 10,
+   "left": 119.0,
+   "top": 39.9,
+   "pages": [
+    {
+     "file": "7f2d5f1c4972-h0.webp",
+     "start": 0,
+     "count": 71
+    },
+    {
+     "file": "7f2d5f1c4972-h1.webp",
+     "start": 71,
+     "count": 71
+    },
+    {
+     "file": "7f2d5f1c4972-h2.webp",
+     "start": 142,
+     "count": 71
+    },
+    {
+     "file": "7f2d5f1c4972-h3.webp",
+     "start": 213,
+     "count": 28
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/写福字.webm"
+  },
+  {
+   "id": "05bfae4861a4",
+   "name": "凭空生花",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 429,
+   "tileH": 315,
+   "cols": 10,
+   "left": 84.0,
+   "top": 18.2,
+   "pages": [
+    {
+     "file": "05bfae4861a4-h0.webp",
+     "start": 0,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h1.webp",
+     "start": 38,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h2.webp",
+     "start": 76,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h3.webp",
+     "start": 114,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h4.webp",
+     "start": 152,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h5.webp",
+     "start": 190,
+     "count": 38
+    },
+    {
+     "file": "05bfae4861a4-h6.webp",
+     "start": 228,
+     "count": 13
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/凭空生花.webm"
+  },
+  {
+   "id": "559fa3c3ecab",
+   "name": "动物环绕",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 471,
+   "tileH": 315,
+   "cols": 10,
+   "left": 53.9,
+   "top": 21.0,
+   "pages": [
+    {
+     "file": "559fa3c3ecab-h0.webp",
+     "start": 0,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h1.webp",
+     "start": 35,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h2.webp",
+     "start": 70,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h3.webp",
+     "start": 105,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h4.webp",
+     "start": 140,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h5.webp",
+     "start": 175,
+     "count": 35
+    },
+    {
+     "file": "559fa3c3ecab-h6.webp",
+     "start": 210,
+     "count": 31
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/动物环绕.webm"
+  },
+  {
+   "id": "92924e25f7aa",
+   "name": "原地专心玩魔方",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 264,
+   "tileH": 274,
+   "cols": 10,
+   "left": 122.5,
+   "top": 44.8,
+   "pages": [
+    {
+     "file": "92924e25f7aa-h0.webp",
+     "start": 0,
+     "count": 71
+    },
+    {
+     "file": "92924e25f7aa-h1.webp",
+     "start": 71,
+     "count": 71
+    },
+    {
+     "file": "92924e25f7aa-h2.webp",
+     "start": 142,
+     "count": 71
+    },
+    {
+     "file": "92924e25f7aa-h3.webp",
+     "start": 213,
+     "count": 28
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地专心玩魔方.webm"
+  },
+  {
+   "id": "d419244dc903",
+   "name": "原地小憩沉眠",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 225,
+   "tileH": 304,
+   "cols": 10,
+   "left": 144.2,
+   "top": 19.6,
+   "pages": [
+    {
+     "file": "d419244dc903-h0.webp",
+     "start": 0,
+     "count": 76
+    },
+    {
+     "file": "d419244dc903-h1.webp",
+     "start": 76,
+     "count": 76
+    },
+    {
+     "file": "d419244dc903-h2.webp",
+     "start": 152,
+     "count": 76
+    },
+    {
+     "file": "d419244dc903-h3.webp",
+     "start": 228,
+     "count": 13
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地小憩沉眠.webm"
+  },
+  {
+   "id": "5636b886d132",
+   "name": "原地敲击桌面互动",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 227,
+   "tileH": 268,
+   "cols": 10,
+   "left": 140.7,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "5636b886d132-h0.webp",
+     "start": 0,
+     "count": 85
+    },
+    {
+     "file": "5636b886d132-h1.webp",
+     "start": 85,
+     "count": 85
+    },
+    {
+     "file": "5636b886d132-h2.webp",
+     "start": 170,
+     "count": 71
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地敲击桌面互动.webm"
+  },
+  {
+   "id": "7551e4ed3652",
+   "name": "原地跳跃抓碎头顶物品",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 414,
+   "tileH": 336,
+   "cols": 10,
+   "left": 79.1,
+   "top": 0.0,
+   "pages": [
+    {
+     "file": "7551e4ed3652-h0.webp",
+     "start": 0,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h1.webp",
+     "start": 37,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h2.webp",
+     "start": 74,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h3.webp",
+     "start": 111,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h4.webp",
+     "start": 148,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h5.webp",
+     "start": 185,
+     "count": 37
+    },
+    {
+     "file": "7551e4ed3652-h6.webp",
+     "start": 222,
+     "count": 19
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地跳跃抓碎头顶物品.webm"
+  },
+  {
+   "id": "5aa645eeeee5",
+   "name": "原地蹲下玩玩具汽车",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 474,
+   "tileH": 292,
+   "cols": 10,
+   "left": 51.8,
+   "top": 37.1,
+   "pages": [
+    {
+     "file": "5aa645eeeee5-h0.webp",
+     "start": 0,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h1.webp",
+     "start": 37,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h2.webp",
+     "start": 74,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h3.webp",
+     "start": 111,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h4.webp",
+     "start": 148,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h5.webp",
+     "start": 185,
+     "count": 37
+    },
+    {
+     "file": "5aa645eeeee5-h6.webp",
+     "start": 222,
+     "count": 19
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地蹲下玩玩具汽车.webm"
+  },
+  {
+   "id": "a89543c6e3cc",
+   "name": "原地重力下蹲压缩",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 247,
+   "tileH": 291,
+   "cols": 10,
+   "left": 144.9,
+   "top": 32.2,
+   "pages": [
+    {
+     "file": "a89543c6e3cc-h0.webp",
+     "start": 0,
+     "count": 72
+    },
+    {
+     "file": "a89543c6e3cc-h1.webp",
+     "start": 72,
+     "count": 72
+    },
+    {
+     "file": "a89543c6e3cc-h2.webp",
+     "start": 144,
+     "count": 72
+    },
+    {
+     "file": "a89543c6e3cc-h3.webp",
+     "start": 216,
+     "count": 25
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/原地重力下蹲压缩.webm"
+  },
+  {
+   "id": "1b01ffbdbad6",
+   "name": "变鸽子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 407,
+   "tileH": 310,
+   "cols": 10,
+   "left": 82.6,
+   "top": 15.4,
+   "pages": [
+    {
+     "file": "1b01ffbdbad6-h0.webp",
+     "start": 0,
+     "count": 41
+    },
+    {
+     "file": "1b01ffbdbad6-h1.webp",
+     "start": 41,
+     "count": 41
+    },
+    {
+     "file": "1b01ffbdbad6-h2.webp",
+     "start": 82,
+     "count": 41
+    },
+    {
+     "file": "1b01ffbdbad6-h3.webp",
+     "start": 123,
+     "count": 41
+    },
+    {
+     "file": "1b01ffbdbad6-h4.webp",
+     "start": 164,
+     "count": 41
+    },
+    {
+     "file": "1b01ffbdbad6-h5.webp",
+     "start": 205,
+     "count": 36
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/变鸽子.webm"
+  },
+  {
+   "id": "a4a8653f4fe8",
+   "name": "可爱宅舞",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 237,
+   "tileH": 277,
+   "cols": 10,
+   "left": 144.9,
+   "top": 38.5,
+   "pages": [
+    {
+     "file": "a4a8653f4fe8-h0.webp",
+     "start": 0,
+     "count": 79
+    },
+    {
+     "file": "a4a8653f4fe8-h1.webp",
+     "start": 79,
+     "count": 79
+    },
+    {
+     "file": "a4a8653f4fe8-h2.webp",
+     "start": 158,
+     "count": 79
+    },
+    {
+     "file": "a4a8653f4fe8-h3.webp",
+     "start": 237,
+     "count": 4
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/可爱宅舞.webm"
+  },
+  {
+   "id": "c7c33c4d51e5",
+   "name": "吃Token",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 357,
+   "tileH": 274,
+   "cols": 10,
+   "left": 99.4,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "c7c33c4d51e5-h0.webp",
+     "start": 0,
+     "count": 53
+    },
+    {
+     "file": "c7c33c4d51e5-h1.webp",
+     "start": 53,
+     "count": 53
+    },
+    {
+     "file": "c7c33c4d51e5-h2.webp",
+     "start": 106,
+     "count": 53
+    },
+    {
+     "file": "c7c33c4d51e5-h3.webp",
+     "start": 159,
+     "count": 53
+    },
+    {
+     "file": "c7c33c4d51e5-h4.webp",
+     "start": 212,
+     "count": 29
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃Token.webm"
+  },
+  {
+   "id": "932f1ee67a32",
+   "name": "吃冰淇淋融化",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 225,
+   "tileH": 277,
+   "cols": 10,
+   "left": 144.9,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "932f1ee67a32-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "932f1ee67a32-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "932f1ee67a32-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃冰淇淋融化.webm"
+  },
+  {
+   "id": "0f191d049fea",
+   "name": "吃午餐",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 228,
+   "tileH": 273,
+   "cols": 10,
+   "left": 142.8,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "0f191d049fea-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "0f191d049fea-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "0f191d049fea-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃午餐.webm"
+  },
+  {
+   "id": "59350fd22c45",
+   "name": "吃大闸蟹",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 250,
+   "tileH": 279,
+   "cols": 10,
+   "left": 142.1,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "59350fd22c45-h0.webp",
+     "start": 0,
+     "count": 74
+    },
+    {
+     "file": "59350fd22c45-h1.webp",
+     "start": 74,
+     "count": 74
+    },
+    {
+     "file": "59350fd22c45-h2.webp",
+     "start": 148,
+     "count": 74
+    },
+    {
+     "file": "59350fd22c45-h3.webp",
+     "start": 222,
+     "count": 19
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃大闸蟹.webm"
+  },
+  {
+   "id": "a580e53a4649",
+   "name": "吃年糕",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 231,
+   "tileH": 269,
+   "cols": 10,
+   "left": 141.4,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "a580e53a4649-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "a580e53a4649-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "a580e53a4649-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃年糕.webm"
+  },
+  {
+   "id": "4b50a7f58059",
+   "name": "吃早餐",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 222,
+   "tileH": 270,
+   "cols": 10,
+   "left": 146.3,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "4b50a7f58059-h0.webp",
+     "start": 0,
+     "count": 86
+    },
+    {
+     "file": "4b50a7f58059-h1.webp",
+     "start": 86,
+     "count": 86
+    },
+    {
+     "file": "4b50a7f58059-h2.webp",
+     "start": 172,
+     "count": 69
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃早餐.webm"
+  },
+  {
+   "id": "b7a67b1c1f22",
+   "name": "吃晚餐",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 453,
+   "tileH": 277,
+   "cols": 10,
+   "left": 68.6,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "b7a67b1c1f22-h0.webp",
+     "start": 0,
+     "count": 41
+    },
+    {
+     "file": "b7a67b1c1f22-h1.webp",
+     "start": 41,
+     "count": 41
+    },
+    {
+     "file": "b7a67b1c1f22-h2.webp",
+     "start": 82,
+     "count": 41
+    },
+    {
+     "file": "b7a67b1c1f22-h3.webp",
+     "start": 123,
+     "count": 41
+    },
+    {
+     "file": "b7a67b1c1f22-h4.webp",
+     "start": 164,
+     "count": 41
+    },
+    {
+     "file": "b7a67b1c1f22-h5.webp",
+     "start": 205,
+     "count": 36
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃晚餐.webm"
+  },
+  {
+   "id": "6f046b665486",
+   "name": "吃汤圆",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 223,
+   "tileH": 269,
+   "cols": 10,
+   "left": 147.7,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "6f046b665486-h0.webp",
+     "start": 0,
+     "count": 86
+    },
+    {
+     "file": "6f046b665486-h1.webp",
+     "start": 86,
+     "count": 86
+    },
+    {
+     "file": "6f046b665486-h2.webp",
+     "start": 172,
+     "count": 69
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃汤圆.webm"
+  },
+  {
+   "id": "3e15c61287d0",
+   "name": "吃白饭",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 234,
+   "tileH": 276,
+   "cols": 10,
+   "left": 141.4,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "3e15c61287d0-h0.webp",
+     "start": 0,
+     "count": 80
+    },
+    {
+     "file": "3e15c61287d0-h1.webp",
+     "start": 80,
+     "count": 80
+    },
+    {
+     "file": "3e15c61287d0-h2.webp",
+     "start": 160,
+     "count": 80
+    },
+    {
+     "file": "3e15c61287d0-h3.webp",
+     "start": 240,
+     "count": 1
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃白饭.webm"
+  },
+  {
+   "id": "f208cc91f3b0",
+   "name": "吃粽子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 230,
+   "tileH": 270,
+   "cols": 10,
+   "left": 145.6,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "f208cc91f3b0-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "f208cc91f3b0-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "f208cc91f3b0-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃粽子.webm"
+  },
+  {
+   "id": "2142a1ad3c9e",
+   "name": "吃糖葫芦",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 237,
+   "tileH": 272,
+   "cols": 10,
+   "left": 142.1,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "2142a1ad3c9e-h0.webp",
+     "start": 0,
+     "count": 80
+    },
+    {
+     "file": "2142a1ad3c9e-h1.webp",
+     "start": 80,
+     "count": 80
+    },
+    {
+     "file": "2142a1ad3c9e-h2.webp",
+     "start": 160,
+     "count": 80
+    },
+    {
+     "file": "2142a1ad3c9e-h3.webp",
+     "start": 240,
+     "count": 1
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃糖葫芦.webm"
+  },
+  {
+   "id": "fc8149ffcdc6",
+   "name": "吃腊八粥",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 229,
+   "tileH": 268,
+   "cols": 10,
+   "left": 140.7,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "fc8149ffcdc6-h0.webp",
+     "start": 0,
+     "count": 84
+    },
+    {
+     "file": "fc8149ffcdc6-h1.webp",
+     "start": 84,
+     "count": 84
+    },
+    {
+     "file": "fc8149ffcdc6-h2.webp",
+     "start": 168,
+     "count": 73
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃腊八粥.webm"
+  },
+  {
+   "id": "e33beef483f8",
+   "name": "吃西瓜",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 231,
+   "tileH": 273,
+   "cols": 10,
+   "left": 143.5,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "e33beef483f8-h0.webp",
+     "start": 0,
+     "count": 82
+    },
+    {
+     "file": "e33beef483f8-h1.webp",
+     "start": 82,
+     "count": 82
+    },
+    {
+     "file": "e33beef483f8-h2.webp",
+     "start": 164,
+     "count": 77
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃西瓜.webm"
+  },
+  {
+   "id": "a19817e5fc31",
+   "name": "吃重阳糕",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 225,
+   "tileH": 270,
+   "cols": 10,
+   "left": 147.7,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "a19817e5fc31-h0.webp",
+     "start": 0,
+     "count": 85
+    },
+    {
+     "file": "a19817e5fc31-h1.webp",
+     "start": 85,
+     "count": 85
+    },
+    {
+     "file": "a19817e5fc31-h2.webp",
+     "start": 170,
+     "count": 71
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃重阳糕.webm"
+  },
+  {
+   "id": "46cc78cdefb7",
+   "name": "吃长寿面",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 313,
+   "tileH": 269,
+   "cols": 10,
+   "left": 88.9,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "46cc78cdefb7-h0.webp",
+     "start": 0,
+     "count": 61
+    },
+    {
+     "file": "46cc78cdefb7-h1.webp",
+     "start": 61,
+     "count": 61
+    },
+    {
+     "file": "46cc78cdefb7-h2.webp",
+     "start": 122,
+     "count": 61
+    },
+    {
+     "file": "46cc78cdefb7-h3.webp",
+     "start": 183,
+     "count": 58
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃长寿面.webm"
+  },
+  {
+   "id": "b086f986ef59",
+   "name": "吃青团",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 227,
+   "tileH": 270,
+   "cols": 10,
+   "left": 144.9,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "b086f986ef59-h0.webp",
+     "start": 0,
+     "count": 84
+    },
+    {
+     "file": "b086f986ef59-h1.webp",
+     "start": 84,
+     "count": 84
+    },
+    {
+     "file": "b086f986ef59-h2.webp",
+     "start": 168,
+     "count": 73
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃青团.webm"
+  },
+  {
+   "id": "ce65232ac105",
+   "name": "吃饺子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 260,
+   "tileH": 307,
+   "cols": 10,
+   "left": 134.4,
+   "top": 24.5,
+   "pages": [
+    {
+     "file": "ce65232ac105-h0.webp",
+     "start": 0,
+     "count": 65
+    },
+    {
+     "file": "ce65232ac105-h1.webp",
+     "start": 65,
+     "count": 65
+    },
+    {
+     "file": "ce65232ac105-h2.webp",
+     "start": 130,
+     "count": 65
+    },
+    {
+     "file": "ce65232ac105-h3.webp",
+     "start": 195,
+     "count": 46
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吃饺子.webm"
+  },
+  {
+   "id": "730e159ab013",
+   "name": "吹气球",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 588,
+   "tileH": 328,
+   "cols": 10,
+   "left": 14.0,
+   "top": 22.4,
+   "pages": [
+    {
+     "file": "730e159ab013-h0.webp",
+     "start": 0,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h1.webp",
+     "start": 26,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h2.webp",
+     "start": 52,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h3.webp",
+     "start": 78,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h4.webp",
+     "start": 104,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h5.webp",
+     "start": 130,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h6.webp",
+     "start": 156,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h7.webp",
+     "start": 182,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h8.webp",
+     "start": 208,
+     "count": 26
+    },
+    {
+     "file": "730e159ab013-h9.webp",
+     "start": 234,
+     "count": 7
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吹气球.webm"
+  },
+  {
+   "id": "1ae9fefcd374",
+   "name": "吹笛子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 472,
+   "tileH": 311,
+   "cols": 10,
+   "left": 51.1,
+   "top": 17.5,
+   "pages": [
+    {
+     "file": "1ae9fefcd374-h0.webp",
+     "start": 0,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h1.webp",
+     "start": 35,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h2.webp",
+     "start": 70,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h3.webp",
+     "start": 105,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h4.webp",
+     "start": 140,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h5.webp",
+     "start": 175,
+     "count": 35
+    },
+    {
+     "file": "1ae9fefcd374-h6.webp",
+     "start": 210,
+     "count": 31
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/吹笛子.webm"
+  },
+  {
+   "id": "1af9465c8af1",
+   "name": "哈欠连天",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 227,
+   "tileH": 272,
+   "cols": 10,
+   "left": 144.2,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "1af9465c8af1-h0.webp",
+     "start": 0,
+     "count": 84
+    },
+    {
+     "file": "1af9465c8af1-h1.webp",
+     "start": 84,
+     "count": 84
+    },
+    {
+     "file": "1af9465c8af1-h2.webp",
+     "start": 168,
+     "count": 73
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/哈欠连天.webm"
+  },
+  {
+   "id": "7b38aad52280",
+   "name": "堆雪人",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 288,
+   "tileH": 280,
+   "cols": 10,
+   "left": 138.6,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "7b38aad52280-h0.webp",
+     "start": 0,
+     "count": 64
+    },
+    {
+     "file": "7b38aad52280-h1.webp",
+     "start": 64,
+     "count": 64
+    },
+    {
+     "file": "7b38aad52280-h2.webp",
+     "start": 128,
+     "count": 64
+    },
+    {
+     "file": "7b38aad52280-h3.webp",
+     "start": 192,
+     "count": 49
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/堆雪人.webm"
+  },
+  {
+   "id": "64d07f799866",
+   "name": "大口吃零食",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 557,
+   "tileH": 316,
+   "cols": 10,
+   "left": 24.5,
+   "top": 29.4,
+   "pages": [
+    {
+     "file": "64d07f799866-h0.webp",
+     "start": 0,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h1.webp",
+     "start": 29,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h2.webp",
+     "start": 58,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h3.webp",
+     "start": 87,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h4.webp",
+     "start": 116,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h5.webp",
+     "start": 145,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h6.webp",
+     "start": 174,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h7.webp",
+     "start": 203,
+     "count": 29
+    },
+    {
+     "file": "64d07f799866-h8.webp",
+     "start": 232,
+     "count": 9
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/大口吃零食.webm"
+  },
+  {
+   "id": "c6a2126cf1cf",
+   "name": "女仆屈膝礼仪",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 221,
+   "tileH": 273,
+   "cols": 10,
+   "left": 146.3,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "c6a2126cf1cf-h0.webp",
+     "start": 0,
+     "count": 86
+    },
+    {
+     "file": "c6a2126cf1cf-h1.webp",
+     "start": 86,
+     "count": 86
+    },
+    {
+     "file": "c6a2126cf1cf-h2.webp",
+     "start": 172,
+     "count": 69
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/女仆屈膝礼仪.webm"
+  },
+  {
+   "id": "a7516171245b",
+   "name": "小幅度原地360度旋转展示",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 278,
+   "tileH": 285,
+   "cols": 10,
+   "left": 133.0,
+   "top": 32.9,
+   "pages": [
+    {
+     "file": "a7516171245b-h0.webp",
+     "start": 0,
+     "count": 65
+    },
+    {
+     "file": "a7516171245b-h1.webp",
+     "start": 65,
+     "count": 65
+    },
+    {
+     "file": "a7516171245b-h2.webp",
+     "start": 130,
+     "count": 65
+    },
+    {
+     "file": "a7516171245b-h3.webp",
+     "start": 195,
+     "count": 46
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/小幅度原地360度旋转展示.webm"
+  },
+  {
+   "id": "d23954ecb54e",
+   "name": "小提琴演奏",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 334,
+   "tileH": 281,
+   "cols": 10,
+   "left": 95.2,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "d23954ecb54e-h0.webp",
+     "start": 0,
+     "count": 55
+    },
+    {
+     "file": "d23954ecb54e-h1.webp",
+     "start": 55,
+     "count": 55
+    },
+    {
+     "file": "d23954ecb54e-h2.webp",
+     "start": 110,
+     "count": 55
+    },
+    {
+     "file": "d23954ecb54e-h3.webp",
+     "start": 165,
+     "count": 55
+    },
+    {
+     "file": "d23954ecb54e-h4.webp",
+     "start": 220,
+     "count": 21
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/小提琴演奏.webm"
+  },
+  {
+   "id": "f01d549c9bd8",
+   "name": "工作状态-原地踱步张望",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 254,
+   "tileH": 291,
+   "cols": 10,
+   "left": 129.5,
+   "top": 28.7,
+   "pages": [
+    {
+     "file": "f01d549c9bd8-h0.webp",
+     "start": 0,
+     "count": 70
+    },
+    {
+     "file": "f01d549c9bd8-h1.webp",
+     "start": 70,
+     "count": 70
+    },
+    {
+     "file": "f01d549c9bd8-h2.webp",
+     "start": 140,
+     "count": 70
+    },
+    {
+     "file": "f01d549c9bd8-h3.webp",
+     "start": 210,
+     "count": 31
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/工作状态-原地踱步张望.webm"
+  },
+  {
+   "id": "209fc8916f7b",
+   "name": "工作状态-垂头叹气冒汗",
+   "group": "random",
+   "frames": 118,
+   "fps": 24,
+   "tileW": 268,
+   "tileH": 282,
+   "cols": 10,
+   "left": 111.3,
+   "top": 33.6,
+   "pages": [
+    {
+     "file": "209fc8916f7b-h0.webp",
+     "start": 0,
+     "count": 68
+    },
+    {
+     "file": "209fc8916f7b-h1.webp",
+     "start": 68,
+     "count": 50
+    }
+   ],
+   "duration": 4.916666666666667,
+   "source": "random/工作状态-垂头叹气冒汗.webm"
+  },
+  {
+   "id": "34246eb8ef7d",
+   "name": "工作状态-忙碌点按",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 269,
+   "tileH": 325,
+   "cols": 10,
+   "left": 123.9,
+   "top": 4.2,
+   "pages": [
+    {
+     "file": "34246eb8ef7d-h0.webp",
+     "start": 0,
+     "count": 59
+    },
+    {
+     "file": "34246eb8ef7d-h1.webp",
+     "start": 59,
+     "count": 59
+    },
+    {
+     "file": "34246eb8ef7d-h2.webp",
+     "start": 118,
+     "count": 59
+    },
+    {
+     "file": "34246eb8ef7d-h3.webp",
+     "start": 177,
+     "count": 59
+    },
+    {
+     "file": "34246eb8ef7d-h4.webp",
+     "start": 236,
+     "count": 5
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/工作状态-忙碌点按.webm"
+  },
+  {
+   "id": "9e8d76e2fbaf",
+   "name": "工作状态-思考冒泡",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 252,
+   "tileH": 281,
+   "cols": 10,
+   "left": 128.8,
+   "top": 35.7,
+   "pages": [
+    {
+     "file": "9e8d76e2fbaf-h0.webp",
+     "start": 0,
+     "count": 73
+    },
+    {
+     "file": "9e8d76e2fbaf-h1.webp",
+     "start": 73,
+     "count": 73
+    },
+    {
+     "file": "9e8d76e2fbaf-h2.webp",
+     "start": 146,
+     "count": 73
+    },
+    {
+     "file": "9e8d76e2fbaf-h3.webp",
+     "start": 219,
+     "count": 22
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/工作状态-思考冒泡.webm"
+  },
+  {
+   "id": "fd3c6cb1d1a5",
+   "name": "工作状态-清点归档",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 217,
+   "tileH": 268,
+   "cols": 10,
+   "left": 148.4,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "fd3c6cb1d1a5-h0.webp",
+     "start": 0,
+     "count": 89
+    },
+    {
+     "file": "fd3c6cb1d1a5-h1.webp",
+     "start": 89,
+     "count": 89
+    },
+    {
+     "file": "fd3c6cb1d1a5-h2.webp",
+     "start": 178,
+     "count": 63
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/工作状态-清点归档.webm"
+  },
+  {
+   "id": "26750991a570",
+   "name": "工作状态-雀跃庆祝",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 300,
+   "tileH": 314,
+   "cols": 10,
+   "left": 120.4,
+   "top": 11.9,
+   "pages": [
+    {
+     "file": "26750991a570-h0.webp",
+     "start": 0,
+     "count": 55
+    },
+    {
+     "file": "26750991a570-h1.webp",
+     "start": 55,
+     "count": 55
+    },
+    {
+     "file": "26750991a570-h2.webp",
+     "start": 110,
+     "count": 55
+    },
+    {
+     "file": "26750991a570-h3.webp",
+     "start": 165,
+     "count": 55
+    },
+    {
+     "file": "26750991a570-h4.webp",
+     "start": 220,
+     "count": 21
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/工作状态-雀跃庆祝.webm"
+  },
+  {
+   "id": "3ea16be06245",
+   "name": "悠闲哼歌",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 348,
+   "tileH": 326,
+   "cols": 10,
+   "left": 99.4,
+   "top": 3.5,
+   "pages": [
+    {
+     "file": "3ea16be06245-h0.webp",
+     "start": 0,
+     "count": 45
+    },
+    {
+     "file": "3ea16be06245-h1.webp",
+     "start": 45,
+     "count": 45
+    },
+    {
+     "file": "3ea16be06245-h2.webp",
+     "start": 90,
+     "count": 45
+    },
+    {
+     "file": "3ea16be06245-h3.webp",
+     "start": 135,
+     "count": 45
+    },
+    {
+     "file": "3ea16be06245-h4.webp",
+     "start": 180,
+     "count": 45
+    },
+    {
+     "file": "3ea16be06245-h5.webp",
+     "start": 225,
+     "count": 16
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/悠闲哼歌.webm"
+  },
+  {
+   "id": "3132e13c409c",
+   "name": "扑克魔术",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 257,
+   "tileH": 268,
+   "cols": 10,
+   "left": 126.0,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "3132e13c409c-h0.webp",
+     "start": 0,
+     "count": 75
+    },
+    {
+     "file": "3132e13c409c-h1.webp",
+     "start": 75,
+     "count": 75
+    },
+    {
+     "file": "3132e13c409c-h2.webp",
+     "start": 150,
+     "count": 75
+    },
+    {
+     "file": "3132e13c409c-h3.webp",
+     "start": 225,
+     "count": 16
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/扑克魔术.webm"
+  },
+  {
+   "id": "c4559af4b050",
+   "name": "打瞌睡被惊醒",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 249,
+   "tileH": 312,
+   "cols": 10,
+   "left": 139.3,
+   "top": 14.0,
+   "pages": [
+    {
+     "file": "c4559af4b050-h0.webp",
+     "start": 0,
+     "count": 66
+    },
+    {
+     "file": "c4559af4b050-h1.webp",
+     "start": 66,
+     "count": 66
+    },
+    {
+     "file": "c4559af4b050-h2.webp",
+     "start": 132,
+     "count": 66
+    },
+    {
+     "file": "c4559af4b050-h3.webp",
+     "start": 198,
+     "count": 43
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/打瞌睡被惊醒.webm"
+  },
+  {
+   "id": "0f79084c4798",
+   "name": "抽陀螺",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 274,
+   "tileH": 280,
+   "cols": 10,
+   "left": 114.8,
+   "top": 44.8,
+   "pages": [
+    {
+     "file": "0f79084c4798-h0.webp",
+     "start": 0,
+     "count": 67
+    },
+    {
+     "file": "0f79084c4798-h1.webp",
+     "start": 67,
+     "count": 67
+    },
+    {
+     "file": "0f79084c4798-h2.webp",
+     "start": 134,
+     "count": 67
+    },
+    {
+     "file": "0f79084c4798-h3.webp",
+     "start": 201,
+     "count": 40
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/抽陀螺.webm"
+  },
+  {
+   "id": "8e221d305ac4",
+   "name": "拆礼物",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 313,
+   "tileH": 296,
+   "cols": 10,
+   "left": 109.9,
+   "top": 30.8,
+   "pages": [
+    {
+     "file": "8e221d305ac4-h0.webp",
+     "start": 0,
+     "count": 56
+    },
+    {
+     "file": "8e221d305ac4-h1.webp",
+     "start": 56,
+     "count": 56
+    },
+    {
+     "file": "8e221d305ac4-h2.webp",
+     "start": 112,
+     "count": 56
+    },
+    {
+     "file": "8e221d305ac4-h3.webp",
+     "start": 168,
+     "count": 56
+    },
+    {
+     "file": "8e221d305ac4-h4.webp",
+     "start": 224,
+     "count": 17
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/拆礼物.webm"
+  },
+  {
+   "id": "2687839f0e96",
+   "name": "插茱萸赏菊",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 232,
+   "tileH": 268,
+   "cols": 10,
+   "left": 145.6,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "2687839f0e96-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "2687839f0e96-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "2687839f0e96-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/插茱萸赏菊.webm"
+  },
+  {
+   "id": "6b2851ee27e2",
+   "name": "摇扇纳凉",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 313,
+   "tileH": 281,
+   "cols": 10,
+   "left": 109.2,
+   "top": 36.4,
+   "pages": [
+    {
+     "file": "6b2851ee27e2-h0.webp",
+     "start": 0,
+     "count": 59
+    },
+    {
+     "file": "6b2851ee27e2-h1.webp",
+     "start": 59,
+     "count": 59
+    },
+    {
+     "file": "6b2851ee27e2-h2.webp",
+     "start": 118,
+     "count": 59
+    },
+    {
+     "file": "6b2851ee27e2-h3.webp",
+     "start": 177,
+     "count": 59
+    },
+    {
+     "file": "6b2851ee27e2-h4.webp",
+     "start": 236,
+     "count": 5
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/摇扇纳凉.webm"
+  },
+  {
+   "id": "7af508d2173e",
+   "name": "撸猫",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 223,
+   "tileH": 269,
+   "cols": 10,
+   "left": 146.3,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "7af508d2173e-h0.webp",
+     "start": 0,
+     "count": 86
+    },
+    {
+     "file": "7af508d2173e-h1.webp",
+     "start": 86,
+     "count": 86
+    },
+    {
+     "file": "7af508d2173e-h2.webp",
+     "start": 172,
+     "count": 69
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/撸猫.webm"
+  },
+  {
+   "id": "73b8437e2a15",
+   "name": "收红包",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 233,
+   "tileH": 268,
+   "cols": 10,
+   "left": 144.9,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "73b8437e2a15-h0.webp",
+     "start": 0,
+     "count": 83
+    },
+    {
+     "file": "73b8437e2a15-h1.webp",
+     "start": 83,
+     "count": 83
+    },
+    {
+     "file": "73b8437e2a15-h2.webp",
+     "start": 166,
+     "count": 75
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/收红包.webm"
+  },
+  {
+   "id": "dfe67bf90167",
+   "name": "放孔明灯",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 276,
+   "tileH": 351,
+   "cols": 10,
+   "left": 112.7,
+   "top": 0.7,
+   "pages": [
+    {
+     "file": "dfe67bf90167-h0.webp",
+     "start": 0,
+     "count": 53
+    },
+    {
+     "file": "dfe67bf90167-h1.webp",
+     "start": 53,
+     "count": 53
+    },
+    {
+     "file": "dfe67bf90167-h2.webp",
+     "start": 106,
+     "count": 53
+    },
+    {
+     "file": "dfe67bf90167-h3.webp",
+     "start": 159,
+     "count": 53
+    },
+    {
+     "file": "dfe67bf90167-h4.webp",
+     "start": 212,
+     "count": 29
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/放孔明灯.webm"
+  },
+  {
+   "id": "d939f2338241",
+   "name": "放河灯",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 227,
+   "tileH": 270,
+   "cols": 10,
+   "left": 144.9,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "d939f2338241-h0.webp",
+     "start": 0,
+     "count": 84
+    },
+    {
+     "file": "d939f2338241-h1.webp",
+     "start": 84,
+     "count": 84
+    },
+    {
+     "file": "d939f2338241-h2.webp",
+     "start": 168,
+     "count": 73
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/放河灯.webm"
+  },
+  {
+   "id": "920438871959",
+   "name": "放烟花",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 599,
+   "tileH": 360,
+   "cols": 10,
+   "left": 14.7,
+   "top": 0.0,
+   "pages": [
+    {
+     "file": "920438871959-h0.webp",
+     "start": 0,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h1.webp",
+     "start": 24,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h2.webp",
+     "start": 48,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h3.webp",
+     "start": 72,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h4.webp",
+     "start": 96,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h5.webp",
+     "start": 120,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h6.webp",
+     "start": 144,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h7.webp",
+     "start": 168,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h8.webp",
+     "start": 192,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h9.webp",
+     "start": 216,
+     "count": 24
+    },
+    {
+     "file": "920438871959-h10.webp",
+     "start": 240,
+     "count": 1
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/放烟花.webm"
+  },
+  {
+   "id": "5a6248629e8e",
+   "name": "放风筝",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 407,
+   "tileH": 333,
+   "cols": 10,
+   "left": 72.1,
+   "top": 0.0,
+   "pages": [
+    {
+     "file": "5a6248629e8e-h0.webp",
+     "start": 0,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h1.webp",
+     "start": 38,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h2.webp",
+     "start": 76,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h3.webp",
+     "start": 114,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h4.webp",
+     "start": 152,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h5.webp",
+     "start": 190,
+     "count": 38
+    },
+    {
+     "file": "5a6248629e8e-h6.webp",
+     "start": 228,
+     "count": 13
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/放风筝.webm"
+  },
+  {
+   "id": "9ad58651c5f1",
+   "name": "整体换装试色",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 285,
+   "tileH": 278,
+   "cols": 10,
+   "left": 133.0,
+   "top": 37.1,
+   "pages": [
+    {
+     "file": "9ad58651c5f1-h0.webp",
+     "start": 0,
+     "count": 65
+    },
+    {
+     "file": "9ad58651c5f1-h1.webp",
+     "start": 65,
+     "count": 65
+    },
+    {
+     "file": "9ad58651c5f1-h2.webp",
+     "start": 130,
+     "count": 65
+    },
+    {
+     "file": "9ad58651c5f1-h3.webp",
+     "start": 195,
+     "count": 46
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/整体换装试色.webm"
+  },
+  {
+   "id": "2b59500bfcbc",
+   "name": "是啊，吃什么",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 553,
+   "tileH": 288,
+   "cols": 10,
+   "left": 37.8,
+   "top": 30.1,
+   "pages": [
+    {
+     "file": "2b59500bfcbc-h0.webp",
+     "start": 0,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h1.webp",
+     "start": 32,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h2.webp",
+     "start": 64,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h3.webp",
+     "start": 96,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h4.webp",
+     "start": 128,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h5.webp",
+     "start": 160,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h6.webp",
+     "start": 192,
+     "count": 32
+    },
+    {
+     "file": "2b59500bfcbc-h7.webp",
+     "start": 224,
+     "count": 17
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/是啊，吃什么.webm"
+  },
+  {
+   "id": "024fa182366a",
+   "name": "晨间刷牙",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 252,
+   "tileH": 287,
+   "cols": 10,
+   "left": 129.5,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "024fa182366a-h0.webp",
+     "start": 0,
+     "count": 71
+    },
+    {
+     "file": "024fa182366a-h1.webp",
+     "start": 71,
+     "count": 71
+    },
+    {
+     "file": "024fa182366a-h2.webp",
+     "start": 142,
+     "count": 71
+    },
+    {
+     "file": "024fa182366a-h3.webp",
+     "start": 213,
+     "count": 28
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/晨间刷牙.webm"
+  },
+  {
+   "id": "1a3a1900d358",
+   "name": "涮火锅",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 236,
+   "tileH": 290,
+   "cols": 10,
+   "left": 140.7,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "1a3a1900d358-h0.webp",
+     "start": 0,
+     "count": 75
+    },
+    {
+     "file": "1a3a1900d358-h1.webp",
+     "start": 75,
+     "count": 75
+    },
+    {
+     "file": "1a3a1900d358-h2.webp",
+     "start": 150,
+     "count": 75
+    },
+    {
+     "file": "1a3a1900d358-h3.webp",
+     "start": 225,
+     "count": 16
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/涮火锅.webm"
+  },
+  {
+   "id": "967509a4bb86",
+   "name": "深度思考碎碎念",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 460,
+   "tileH": 284,
+   "cols": 10,
+   "left": 64.4,
+   "top": 36.4,
+   "pages": [
+    {
+     "file": "967509a4bb86-h0.webp",
+     "start": 0,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h1.webp",
+     "start": 39,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h2.webp",
+     "start": 78,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h3.webp",
+     "start": 117,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h4.webp",
+     "start": 156,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h5.webp",
+     "start": 195,
+     "count": 39
+    },
+    {
+     "file": "967509a4bb86-h6.webp",
+     "start": 234,
+     "count": 7
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/深度思考碎碎念.webm"
+  },
+  {
+   "id": "0293e014a77a",
+   "name": "照镜子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 264,
+   "tileH": 278,
+   "cols": 10,
+   "left": 137.9,
+   "top": 37.1,
+   "pages": [
+    {
+     "file": "0293e014a77a-h0.webp",
+     "start": 0,
+     "count": 70
+    },
+    {
+     "file": "0293e014a77a-h1.webp",
+     "start": 70,
+     "count": 70
+    },
+    {
+     "file": "0293e014a77a-h2.webp",
+     "start": 140,
+     "count": 70
+    },
+    {
+     "file": "0293e014a77a-h3.webp",
+     "start": 210,
+     "count": 31
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/照镜子.webm"
+  },
+  {
+   "id": "47e4b901c4b7",
+   "name": "玩水枪",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 562,
+   "tileH": 296,
+   "cols": 10,
+   "left": 22.4,
+   "top": 44.1,
+   "pages": [
+    {
+     "file": "47e4b901c4b7-h0.webp",
+     "start": 0,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h1.webp",
+     "start": 31,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h2.webp",
+     "start": 62,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h3.webp",
+     "start": 93,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h4.webp",
+     "start": 124,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h5.webp",
+     "start": 155,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h6.webp",
+     "start": 186,
+     "count": 31
+    },
+    {
+     "file": "47e4b901c4b7-h7.webp",
+     "start": 217,
+     "count": 24
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/玩水枪.webm"
+  },
+  {
+   "id": "60bb793f06d3",
+   "name": "玩游戏气急败坏",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 283,
+   "tileH": 287,
+   "cols": 10,
+   "left": 116.9,
+   "top": 39.2,
+   "pages": [
+    {
+     "file": "60bb793f06d3-h0.webp",
+     "start": 0,
+     "count": 64
+    },
+    {
+     "file": "60bb793f06d3-h1.webp",
+     "start": 64,
+     "count": 64
+    },
+    {
+     "file": "60bb793f06d3-h2.webp",
+     "start": 128,
+     "count": 64
+    },
+    {
+     "file": "60bb793f06d3-h3.webp",
+     "start": 192,
+     "count": 49
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/玩游戏气急败坏.webm"
+  },
+  {
+   "id": "adf23923f704",
+   "name": "用鲸鱼尾巴拍打地面",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 262,
+   "tileH": 270,
+   "cols": 10,
+   "left": 145.6,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "adf23923f704-h0.webp",
+     "start": 0,
+     "count": 73
+    },
+    {
+     "file": "adf23923f704-h1.webp",
+     "start": 73,
+     "count": 73
+    },
+    {
+     "file": "adf23923f704-h2.webp",
+     "start": 146,
+     "count": 73
+    },
+    {
+     "file": "adf23923f704-h3.webp",
+     "start": 219,
+     "count": 22
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/用鲸鱼尾巴拍打地面.webm"
+  },
+  {
+   "id": "872ed856fc42",
+   "name": "碎碎念-发呆碎碎念",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 226,
+   "tileH": 282,
+   "cols": 10,
+   "left": 144.2,
+   "top": 34.3,
+   "pages": [
+    {
+     "file": "872ed856fc42-h0.webp",
+     "start": 0,
+     "count": 81
+    },
+    {
+     "file": "872ed856fc42-h1.webp",
+     "start": 81,
+     "count": 81
+    },
+    {
+     "file": "872ed856fc42-h2.webp",
+     "start": 162,
+     "count": 79
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/碎碎念-发呆碎碎念.webm"
+  },
+  {
+   "id": "9a2f1fc2249a",
+   "name": "碎碎念-对屏碎碎念",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 217,
+   "tileH": 271,
+   "cols": 10,
+   "left": 148.4,
+   "top": 42.0,
+   "pages": [
+    {
+     "file": "9a2f1fc2249a-h0.webp",
+     "start": 0,
+     "count": 88
+    },
+    {
+     "file": "9a2f1fc2249a-h1.webp",
+     "start": 88,
+     "count": 88
+    },
+    {
+     "file": "9a2f1fc2249a-h2.webp",
+     "start": 176,
+     "count": 65
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/碎碎念-对屏碎碎念.webm"
+  },
+  {
+   "id": "f2893d241927",
+   "name": "碎碎念-擦桌碎碎念",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 235,
+   "tileH": 270,
+   "cols": 10,
+   "left": 140.0,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "f2893d241927-h0.webp",
+     "start": 0,
+     "count": 81
+    },
+    {
+     "file": "f2893d241927-h1.webp",
+     "start": 81,
+     "count": 81
+    },
+    {
+     "file": "f2893d241927-h2.webp",
+     "start": 162,
+     "count": 79
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/碎碎念-擦桌碎碎念.webm"
+  },
+  {
+   "id": "0dc0b10fc608",
+   "name": "穿针乞巧",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 355,
+   "tileH": 285,
+   "cols": 10,
+   "left": 126.7,
+   "top": 32.2,
+   "pages": [
+    {
+     "file": "0dc0b10fc608-h0.webp",
+     "start": 0,
+     "count": 51
+    },
+    {
+     "file": "0dc0b10fc608-h1.webp",
+     "start": 51,
+     "count": 51
+    },
+    {
+     "file": "0dc0b10fc608-h2.webp",
+     "start": 102,
+     "count": 51
+    },
+    {
+     "file": "0dc0b10fc608-h3.webp",
+     "start": 153,
+     "count": 51
+    },
+    {
+     "file": "0dc0b10fc608-h4.webp",
+     "start": 204,
+     "count": 37
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/穿针乞巧.webm"
+  },
+  {
+   "id": "20e9aba4c5c2",
+   "name": "舞狮头",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 243,
+   "tileH": 299,
+   "cols": 10,
+   "left": 140.7,
+   "top": 22.4,
+   "pages": [
+    {
+     "file": "20e9aba4c5c2-h0.webp",
+     "start": 0,
+     "count": 71
+    },
+    {
+     "file": "20e9aba4c5c2-h1.webp",
+     "start": 71,
+     "count": 71
+    },
+    {
+     "file": "20e9aba4c5c2-h2.webp",
+     "start": 142,
+     "count": 71
+    },
+    {
+     "file": "20e9aba4c5c2-h3.webp",
+     "start": 213,
+     "count": 28
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/舞狮头.webm"
+  },
+  {
+   "id": "3c68a1658367",
+   "name": "荡秋千",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 288,
+   "tileH": 315,
+   "cols": 10,
+   "left": 133.0,
+   "top": 11.9,
+   "pages": [
+    {
+     "file": "3c68a1658367-h0.webp",
+     "start": 0,
+     "count": 57
+    },
+    {
+     "file": "3c68a1658367-h1.webp",
+     "start": 57,
+     "count": 57
+    },
+    {
+     "file": "3c68a1658367-h2.webp",
+     "start": 114,
+     "count": 57
+    },
+    {
+     "file": "3c68a1658367-h3.webp",
+     "start": 171,
+     "count": 57
+    },
+    {
+     "file": "3c68a1658367-h4.webp",
+     "start": 228,
+     "count": 13
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/荡秋千.webm"
+  },
+  {
+   "id": "777999becf68",
+   "name": "萌化小幽灵",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 331,
+   "tileH": 292,
+   "cols": 10,
+   "left": 112.0,
+   "top": 32.9,
+   "pages": [
+    {
+     "file": "777999becf68-h0.webp",
+     "start": 0,
+     "count": 53
+    },
+    {
+     "file": "777999becf68-h1.webp",
+     "start": 53,
+     "count": 53
+    },
+    {
+     "file": "777999becf68-h2.webp",
+     "start": 106,
+     "count": 53
+    },
+    {
+     "file": "777999becf68-h3.webp",
+     "start": 159,
+     "count": 53
+    },
+    {
+     "file": "777999becf68-h4.webp",
+     "start": 212,
+     "count": 29
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/萌化小幽灵.webm"
+  },
+  {
+   "id": "0d8ea8dd94ce",
+   "name": "蓝鲸现世",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 356,
+   "tileH": 294,
+   "cols": 10,
+   "left": 89.6,
+   "top": 25.9,
+   "pages": [
+    {
+     "file": "0d8ea8dd94ce-h0.webp",
+     "start": 0,
+     "count": 49
+    },
+    {
+     "file": "0d8ea8dd94ce-h1.webp",
+     "start": 49,
+     "count": 49
+    },
+    {
+     "file": "0d8ea8dd94ce-h2.webp",
+     "start": 98,
+     "count": 49
+    },
+    {
+     "file": "0d8ea8dd94ce-h3.webp",
+     "start": 147,
+     "count": 49
+    },
+    {
+     "file": "0d8ea8dd94ce-h4.webp",
+     "start": 196,
+     "count": 45
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/蓝鲸现世.webm"
+  },
+  {
+   "id": "a8331cfe91f0",
+   "name": "蝴蝶蜜蜂环绕头顶开花",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 628,
+   "tileH": 330,
+   "cols": 10,
+   "left": 2.8,
+   "top": 4.9,
+   "pages": [
+    {
+     "file": "a8331cfe91f0-h0.webp",
+     "start": 0,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h1.webp",
+     "start": 25,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h2.webp",
+     "start": 50,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h3.webp",
+     "start": 75,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h4.webp",
+     "start": 100,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h5.webp",
+     "start": 125,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h6.webp",
+     "start": 150,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h7.webp",
+     "start": 175,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h8.webp",
+     "start": 200,
+     "count": 25
+    },
+    {
+     "file": "a8331cfe91f0-h9.webp",
+     "start": 225,
+     "count": 16
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/蝴蝶蜜蜂环绕头顶开花.webm"
+  },
+  {
+   "id": "c470ea5aeb59",
+   "name": "被吓一跳",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 230,
+   "tileH": 300,
+   "cols": 10,
+   "left": 143.5,
+   "top": 21.7,
+   "pages": [
+    {
+     "file": "c470ea5aeb59-h0.webp",
+     "start": 0,
+     "count": 75
+    },
+    {
+     "file": "c470ea5aeb59-h1.webp",
+     "start": 75,
+     "count": 75
+    },
+    {
+     "file": "c470ea5aeb59-h2.webp",
+     "start": 150,
+     "count": 75
+    },
+    {
+     "file": "c470ea5aeb59-h3.webp",
+     "start": 225,
+     "count": 16
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/被吓一跳.webm"
+  },
+  {
+   "id": "4c30c028277f",
+   "name": "被落叶淹没",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 580,
+   "tileH": 328,
+   "cols": 10,
+   "left": 22.4,
+   "top": 22.4,
+   "pages": [
+    {
+     "file": "4c30c028277f-h0.webp",
+     "start": 0,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h1.webp",
+     "start": 27,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h2.webp",
+     "start": 54,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h3.webp",
+     "start": 81,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h4.webp",
+     "start": 108,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h5.webp",
+     "start": 135,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h6.webp",
+     "start": 162,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h7.webp",
+     "start": 189,
+     "count": 27
+    },
+    {
+     "file": "4c30c028277f-h8.webp",
+     "start": 216,
+     "count": 25
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/被落叶淹没.webm"
+  },
+  {
+   "id": "b3fb7d869a34",
+   "name": "装点圣诞树",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 490,
+   "tileH": 319,
+   "cols": 10,
+   "left": 39.9,
+   "top": 28.0,
+   "pages": [
+    {
+     "file": "b3fb7d869a34-h0.webp",
+     "start": 0,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h1.webp",
+     "start": 33,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h2.webp",
+     "start": 66,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h3.webp",
+     "start": 99,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h4.webp",
+     "start": 132,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h5.webp",
+     "start": 165,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h6.webp",
+     "start": 198,
+     "count": 33
+    },
+    {
+     "file": "b3fb7d869a34-h7.webp",
+     "start": 231,
+     "count": 10
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/装点圣诞树.webm"
+  },
+  {
+   "id": "abd65ffd132a",
+   "name": "讨糖南瓜灯",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 246,
+   "tileH": 272,
+   "cols": 10,
+   "left": 140.7,
+   "top": 42.7,
+   "pages": [
+    {
+     "file": "abd65ffd132a-h0.webp",
+     "start": 0,
+     "count": 77
+    },
+    {
+     "file": "abd65ffd132a-h1.webp",
+     "start": 77,
+     "count": 77
+    },
+    {
+     "file": "abd65ffd132a-h2.webp",
+     "start": 154,
+     "count": 77
+    },
+    {
+     "file": "abd65ffd132a-h3.webp",
+     "start": 231,
+     "count": 10
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/讨糖南瓜灯.webm"
+  },
+  {
+   "id": "1cc30cde652f",
+   "name": "超大伸懒腰",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 222,
+   "tileH": 274,
+   "cols": 10,
+   "left": 147.0,
+   "top": 39.9,
+   "pages": [
+    {
+     "file": "1cc30cde652f-h0.webp",
+     "start": 0,
+     "count": 85
+    },
+    {
+     "file": "1cc30cde652f-h1.webp",
+     "start": 85,
+     "count": 85
+    },
+    {
+     "file": "1cc30cde652f-h2.webp",
+     "start": 170,
+     "count": 71
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/超大伸懒腰.webm"
+  },
+  {
+   "id": "56fae5337a00",
+   "name": "踢毽子",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 258,
+   "tileH": 305,
+   "cols": 10,
+   "left": 134.4,
+   "top": 19.6,
+   "pages": [
+    {
+     "file": "56fae5337a00-h0.webp",
+     "start": 0,
+     "count": 66
+    },
+    {
+     "file": "56fae5337a00-h1.webp",
+     "start": 66,
+     "count": 66
+    },
+    {
+     "file": "56fae5337a00-h2.webp",
+     "start": 132,
+     "count": 66
+    },
+    {
+     "file": "56fae5337a00-h3.webp",
+     "start": 198,
+     "count": 43
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/踢毽子.webm"
+  },
+  {
+   "id": "14da60aeb029",
+   "name": "轻快摇摆舞",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 278,
+   "tileH": 273,
+   "cols": 10,
+   "left": 135.8,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "14da60aeb029-h0.webp",
+     "start": 0,
+     "count": 68
+    },
+    {
+     "file": "14da60aeb029-h1.webp",
+     "start": 68,
+     "count": 68
+    },
+    {
+     "file": "14da60aeb029-h2.webp",
+     "start": 136,
+     "count": 68
+    },
+    {
+     "file": "14da60aeb029-h3.webp",
+     "start": 204,
+     "count": 37
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/轻快摇摆舞.webm"
+  },
+  {
+   "id": "6e61b206797f",
+   "name": "轻快记录",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 243,
+   "tileH": 272,
+   "cols": 10,
+   "left": 134.4,
+   "top": 41.3,
+   "pages": [
+    {
+     "file": "6e61b206797f-h0.webp",
+     "start": 0,
+     "count": 78
+    },
+    {
+     "file": "6e61b206797f-h1.webp",
+     "start": 78,
+     "count": 78
+    },
+    {
+     "file": "6e61b206797f-h2.webp",
+     "start": 156,
+     "count": 78
+    },
+    {
+     "file": "6e61b206797f-h3.webp",
+     "start": 234,
+     "count": 7
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/轻快记录.webm"
+  },
+  {
+   "id": "40b117bb9975",
+   "name": "骑木马",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 343,
+   "tileH": 345,
+   "cols": 10,
+   "left": 106.4,
+   "top": 10.5,
+   "pages": [
+    {
+     "file": "40b117bb9975-h0.webp",
+     "start": 0,
+     "count": 43
+    },
+    {
+     "file": "40b117bb9975-h1.webp",
+     "start": 43,
+     "count": 43
+    },
+    {
+     "file": "40b117bb9975-h2.webp",
+     "start": 86,
+     "count": 43
+    },
+    {
+     "file": "40b117bb9975-h3.webp",
+     "start": 129,
+     "count": 43
+    },
+    {
+     "file": "40b117bb9975-h4.webp",
+     "start": 172,
+     "count": 43
+    },
+    {
+     "file": "40b117bb9975-h5.webp",
+     "start": 215,
+     "count": 26
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/骑木马.webm"
+  },
+  {
+   "id": "1474490a042c",
+   "name": "鲸鱼吐泡泡特效",
+   "group": "random",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 318,
+   "tileH": 299,
+   "cols": 10,
+   "left": 79.1,
+   "top": 23.1,
+   "pages": [
+    {
+     "file": "1474490a042c-h0.webp",
+     "start": 0,
+     "count": 54
+    },
+    {
+     "file": "1474490a042c-h1.webp",
+     "start": 54,
+     "count": 54
+    },
+    {
+     "file": "1474490a042c-h2.webp",
+     "start": 108,
+     "count": 54
+    },
+    {
+     "file": "1474490a042c-h3.webp",
+     "start": 162,
+     "count": 54
+    },
+    {
+     "file": "1474490a042c-h4.webp",
+     "start": 216,
+     "count": 25
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "random/鲸鱼吐泡泡特效.webm"
+  },
+  {
+   "id": "ce581e8fff84",
+   "name": "东张西望",
+   "group": "turn",
+   "frames": 241,
+   "fps": 24,
+   "tileW": 234,
+   "tileH": 269,
+   "cols": 10,
+   "left": 145.6,
+   "top": 43.4,
+   "pages": [
+    {
+     "file": "ce581e8fff84-h0.webp",
+     "start": 0,
+     "count": 82
+    },
+    {
+     "file": "ce581e8fff84-h1.webp",
+     "start": 82,
+     "count": 82
+    },
+    {
+     "file": "ce581e8fff84-h2.webp",
+     "start": 164,
+     "count": 77
+    }
+   ],
+   "duration": 10.041666666666666,
+   "source": "turn/东张西望.webm"
+  }
+ ],
+ "assetVersion": "20261011-3",
+ "tileScale": 0.7
+}

@@ -102,7 +102,8 @@ function draw(now){
   const scale=body.height/189;
   ctx.save();ctx.translate(body.x,body.y);ctx.rotate(body.angle);
   const squash=clamp(shakeEnergy,0,0.09);ctx.scale(1+squash,1-squash);
-  ctx.drawImage(image,sx,sy,current.tileW,current.tileH,(current.left-224)*scale,(current.top-136.5)*scale,current.tileW*scale,current.tileH*scale);
+  const ts=manifest.tileScale||1;ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';
+  ctx.drawImage(image,sx,sy,current.tileW,current.tileH,(current.left-224)*scale,(current.top-136.5)*scale,current.tileW*ts*scale,current.tileH*ts*scale);
   ctx.restore();
 }
 function tick(timestamp){
